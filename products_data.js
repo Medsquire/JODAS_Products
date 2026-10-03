@@ -1,0 +1,2765 @@
+window.cat1Data = [
+  {
+    "id": 1,
+    "sno": 10,
+    "product_name": "Ceftazidime Powder for formulation of Solution for Intramuscular and Intravenous administration 2g",
+    "brand_name": "FORTAZIM",
+    "license_no": "L.Dis.No.20/2018",
+    "page": 1
+  },
+  {
+    "id": 2,
+    "sno": 11,
+    "product_name": "Cefotaxime sodium powder for solution for intravenous and intramuscular Injection 500mg)",
+    "brand_name": "ORITAX",
+    "license_no": "L.Dis.No.3737/2018",
+    "page": 1
+  },
+  {
+    "id": 3,
+    "sno": 12,
+    "product_name": "Cefazolin powder for solution for intravenous and intramuscular Injection 500mg)",
+    "brand_name": "CEFAZOLIN",
+    "license_no": "L.Dis.No.3737/2018",
+    "page": 1
+  },
+  {
+    "id": 4,
+    "sno": 13,
+    "product_name": "Cefoperazone + Sulbactam powder for preparation for solution of intravenous and intramuscular administration 500mg+500mg Cefoperazone+Sulbactam powderfor preparationforsolution of intravenous and intramuscular administration 1000mg+500mg",
+    "brand_name": "CEFOPERAZONE and SULBACTAM JODAS CEFOPERAZONE and SULBACTAM JODAS",
+    "license_no": "L.Dis.No.3737/2018 L.Dis.No.3737/2018",
+    "page": 1
+  },
+  {
+    "id": 5,
+    "sno": 15,
+    "product_name": "Ceftriaxone 1g and Tazobactam 125mg for Injection + 1 ampoule of 1OmL Sterile Water for Injection USP (Combipack)",
+    "brand_name": "Jodacef Plus",
+    "license_no": "L.Dis.No61354/TS/2019",
+    "page": 1
+  },
+  {
+    "id": 6,
+    "sno": 16,
+    "product_name": "Ceftriaxone 1g and Tazobactam 125mg for Injection + 1 ampoule of 5mL Sterile Water for Injection USP (Combipack)",
+    "brand_name": "JodacefPlus",
+    "license_no": "L.Dis.No61354/TS/2019",
+    "page": 1
+  },
+  {
+    "id": 7,
+    "sno": 17,
+    "product_name": "Intravenous administration 1000 mg",
+    "brand_name": "CEFEPIME- JODAS",
+    "license_no": "L.Dis.No.3105/E(S)/TS/2016",
+    "page": 1
+  },
+  {
+    "id": 8,
+    "sno": 18,
+    "product_name": "Cefuroxime Powder for preparation for Solution of Intravenous and Intramuscular administration 750 mg",
+    "brand_name": "CEFROXIMDJ",
+    "license_no": "L.Dis.No.3105/E(S)/TS/2016",
+    "page": 1
+  },
+  {
+    "id": 9,
+    "sno": 19,
+    "product_name": "Cefuroxime Powder for preparation for Solution of Intravenous and Intramuscular administration 1500 mg",
+    "brand_name": "CEFROXIMDJ",
+    "license_no": "L.Dis.No.3105/E(S)/TS/2016",
+    "page": 1
+  },
+  {
+    "id": 10,
+    "sno": 20,
+    "product_name": "CeftriaxonePowder for formulation of Solution for Intramuscular and Intravenous administration 1000 mg",
+    "brand_name": "CEFTRIAXONE - JODAS",
+    "license_no": "L.Dis.No.3105/E(S)/TS/2016",
+    "page": 1
+  },
+  {
+    "id": 11,
+    "sno": 21,
+    "product_name": "Ceftazidime Powder for formulation of Solution for Intramuscular and Intravenousadministration1000mg",
+    "brand_name": "CEFTAZIDIME- JODAS",
+    "license_no": "L.Dis.No.3105/E(S)/TS/2016",
+    "page": 1
+  },
+  {
+    "id": 12,
+    "sno": 22,
+    "product_name": "Cefepime for Injection USP 1g and Lidocaine Injection USP 1% (Combipack)",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No61354/TS/2019",
+    "page": 1
+  },
+  {
+    "id": 13,
+    "sno": 23,
+    "product_name": "Ceftriaxone 1g and Tazobactam 125mg for Injection",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No81878/2019",
+    "page": 1
+  },
+  {
+    "id": 14,
+    "sno": 24,
+    "product_name": "Ceftriaxone 500mg and Tazobactam 62.5mg for Injection",
+    "brand_name": "polm",
+    "license_no": "L.Dis.No81878/2019",
+    "page": 1
+  },
+  {
+    "id": 15,
+    "sno": 25,
+    "product_name": "lepo Cefepime 500mg and Tazobactam 62.5mg for Injection Page 1 of 10",
+    "brand_name": "yderabad",
+    "license_no": "L.Dis.No81878/2019",
+    "page": 1
+  },
+  {
+    "id": 16,
+    "sno": 26,
+    "product_name": "Cefepime1gandTazobactam125mgforInjection",
+    "brand_name": "Generic",
+    "license_no": "-",
+    "page": 2
+  },
+  {
+    "id": 17,
+    "sno": 27,
+    "product_name": "Ceftazidime 500mg and Tazobactam 62.5mg for Injection",
+    "brand_name": "Generic",
+    "license_no": "-",
+    "page": 2
+  },
+  {
+    "id": 18,
+    "sno": 28,
+    "product_name": "Ceftazidime 1g and Tazobactam 125mg for Injection",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No81878/2019",
+    "page": 2
+  },
+  {
+    "id": 19,
+    "sno": 29,
+    "product_name": "Cephalothin powder for preparation of solution for intravenous and intramuscular administration 0.5 g",
+    "brand_name": "Cephalothin DJ",
+    "license_no": "L.Dis.No.1066391/TS/2021",
+    "page": 2
+  },
+  {
+    "id": 20,
+    "sno": 30,
+    "product_name": "Cephalothin powder for preparation of solution for intravenous and intramuscular administration 1g",
+    "brand_name": "Cephalothin DJ",
+    "license_no": "L.Dis.No.1066391/TS/2021",
+    "page": 2
+  },
+  {
+    "id": 21,
+    "sno": 31,
+    "product_name": "Cephalothin powder for preparation of solution for intravenous and intramuscular administration 2 g",
+    "brand_name": "Cephalothin DJ",
+    "license_no": "L.Dis.No.1066391/TS/2021",
+    "page": 2
+  },
+  {
+    "id": 22,
+    "sno": 32,
+    "product_name": "Cefpirome powderfor preparation of solution for intravenous and intramuscular administration 500 mg",
+    "brand_name": "Cefanorm",
+    "license_no": "L.Dis.No.1066391/TS/2021",
+    "page": 2
+  },
+  {
+    "id": 23,
+    "sno": 33,
+    "product_name": "Cefpirome powder for preparation of solution for intravenous and intramuscular administration 1000 mg",
+    "brand_name": "Cefanorm",
+    "license_no": "L.Dis.No.1066391/TS/2021",
+    "page": 2
+  },
+  {
+    "id": 24,
+    "sno": 34,
+    "product_name": "Ceftazidime 2g and Avibactam 0.5g Powder for the preparation of a concentrate for the preparation of a solution for infusion",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.3885737/TS/2023",
+    "page": 2
+  },
+  {
+    "id": 25,
+    "sno": 35,
+    "product_name": "Cefepime Powder for preparing a solution for intravenous and intramuscular administration 1g",
+    "brand_name": "Kefsepim",
+    "license_no": "L.Dis.No.4215054/TS/2023",
+    "page": 2
+  },
+  {
+    "id": 26,
+    "sno": 36,
+    "product_name": "Cefepime Powder for preparing a solution for intravenous and intramuscular administration 0.5g",
+    "brand_name": "Kefsepim",
+    "license_no": "L.Dis.No.4215054/TS/2023",
+    "page": 2
+  },
+  {
+    "id": 27,
+    "sno": 37,
+    "product_name": "Ceftaroline fosamil powder for the preparation of a concentrate for the preparation of a solution for infusion 600mg/vial",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4215042/TS/2023",
+    "page": 2
+  },
+  {
+    "id": 28,
+    "sno": 38,
+    "product_name": "Ceftaroline fosamil powder for the preparation of a concentrate for the preparation of a solution for infusion 40Omg/vial",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4215042/TS/2023",
+    "page": 2
+  },
+  {
+    "id": 29,
+    "sno": 39,
+    "product_name": "Ceftazidime + Avibactam powder for the preparation of a 500mg",
+    "brand_name": "Avceft",
+    "license_no": "L.Dis.No.4230602/TS/2024",
+    "page": 2
+  },
+  {
+    "id": 30,
+    "sno": 40,
+    "product_name": "Cefoperazone + Sulbactam powder for the preparation of solution for intravenous and intramuscular administration 250 mg+ 250 mg",
+    "brand_name": "Cefoperazone and Sulbactam Jodas",
+    "license_no": "L.Dis.No.4234054/TS/2024",
+    "page": 2
+  },
+  {
+    "id": 31,
+    "sno": 41,
+    "product_name": "intravenous and intramuscular administration 500 mg + 500 mg",
+    "brand_name": "Cefoperazone and Sulbactam Jodas",
+    "license_no": "L.Dis.No.4234054/TS/2024",
+    "page": 2
+  },
+  {
+    "id": 32,
+    "sno": 42,
+    "product_name": "Cefoperazone powder for the preparation of solution for intravenous and intramuscular administration 1000 mg",
+    "brand_name": "CEPERONDJ",
+    "license_no": "L.Dis.No.4234054/TS/2024",
+    "page": 2
+  },
+  {
+    "id": 33,
+    "sno": 43,
+    "product_name": "Cefoperazone powder for the preparation of and intramuscular administration 2000 mg",
+    "brand_name": "CEPERONDJ",
+    "license_no": "L.Dis.No.4234054/TS/2024",
+    "page": 2
+  },
+  {
+    "id": 34,
+    "sno": 44,
+    "product_name": "Cefoperazone + Sulbactam powder for the preparation of solution for intravenous and intramuscular administration 1.5 g + 1.5 g",
+    "brand_name": "Cefoperazone and Sulbactam Jodas",
+    "license_no": "Lic.No.4234491/TS/2024",
+    "page": 2
+  },
+  {
+    "id": 35,
+    "sno": 45,
+    "product_name": "Cefoperazone + Sulbactam powder for the preparation of solution for intravenous and intramuscular administration 2 g + 2 g",
+    "brand_name": "Cefoperazone and Sulbactam Jodas",
+    "license_no": "Lic.No.4234491/TS/2024",
+    "page": 2
+  },
+  {
+    "id": 36,
+    "sno": 46,
+    "product_name": "Cefoperazone +Sulbactam powderforthe preparation of solutionfor intravenous and intramuscular administration 750 mg + 750 mg",
+    "brand_name": "Cefoperazone and Sulbactam Jodas",
+    "license_no": "Lic.No.4234491/TS/2024",
+    "page": 2
+  },
+  {
+    "id": 37,
+    "sno": 47,
+    "product_name": "Cefepime + Sulbactam powder for the preparation of solution for intravenous and intramuscular administration 0.25 g + 0.25 g",
+    "brand_name": "Cefepime Sulbactam",
+    "license_no": "Lic.No.4234492/TS/2024",
+    "page": 2
+  },
+  {
+    "id": 38,
+    "sno": 48,
+    "product_name": "Cefepime + Sulbactam powder for the preparation of solution for intravenous and intramuscular administration 0.5 g + 0.5 g",
+    "brand_name": "Cefepime Sulbactam",
+    "license_no": "Lic.No.4234492/TS/2024",
+    "page": 2
+  },
+  {
+    "id": 39,
+    "sno": 49,
+    "product_name": "Cefepime + Sulbactam powder for the preparation of solution for Expd intravenous and intramuscular administration 1 g + 1 g",
+    "brand_name": "Cefepime Sulbactam",
+    "license_no": "Lic.No.4234492/TS/2024",
+    "page": 2
+  },
+  {
+    "id": 40,
+    "sno": 50,
+    "product_name": "[Hyderabad Cefepime Cefepime+Sulbactam powderforthepreparationof solution for intravenous and intramuscular administration 2 g + 2 g Page 2 of 10",
+    "brand_name": "Sulbactam",
+    "license_no": "Lic.No.4234492 /TS/2024",
+    "page": 2
+  },
+  {
+    "id": 41,
+    "sno": 51,
+    "product_name": "Cefepime + Sulbactam powder for the preparation of solution for intravenous and intramuscular administration2.0g+0.5g/vial",
+    "brand_name": "Cefepime Sulbactam",
+    "license_no": "Lic.No.4311896 /TG/2025",
+    "page": 3
+  },
+  {
+    "id": 42,
+    "sno": 52,
+    "product_name": "Cefepime + Sulbactam powder for the preparation of solution for intravenous and intramuscular administration 1g + 0.5g /vial",
+    "brand_name": "Cefepime Sulbactam",
+    "license_no": "Lic.No.4311896/TG/2025",
+    "page": 3
+  },
+  {
+    "id": 43,
+    "sno": 53,
+    "product_name": "Sulbactam powder for solution for intravenous and intramuscular administration 1000mg",
+    "brand_name": "Sulbactam DJ",
+    "license_no": "Lic.No.4311899/TG/2025",
+    "page": 3
+  },
+  {
+    "id": 44,
+    "sno": 54,
+    "product_name": "Sulbactam powder for solution for intravenous and intramuscular administration 250mg",
+    "brand_name": "Sulbactam DJ",
+    "license_no": "Lic.No.4311899/TG/2025",
+    "page": 3
+  },
+  {
+    "id": 45,
+    "sno": 55,
+    "product_name": "Sulbactam powder for solution for intravenous and intramuscular administration 500mg",
+    "brand_name": "Sulbactam DJ",
+    "license_no": "Lic.No.4311899 /TG/2025",
+    "page": 3
+  },
+  {
+    "id": 46,
+    "sno": 56,
+    "product_name": "Cefepime + Sulbactam powder for the preparation of solution for intravenous and intramuscular administration 0.25 g + 0.25 g",
+    "brand_name": "CEFEPIME SULBACTAM",
+    "license_no": "Lic. No.4450141 /TG/2026",
+    "page": 3
+  },
+  {
+    "id": 47,
+    "sno": 57,
+    "product_name": "Cefepime + Sulbactam powder for the preparation of solution for intravenous and intramuscular administration 0.50 g + 0.50 g",
+    "brand_name": "CEFEPIME SULBACTAM",
+    "license_no": "Lic.No.4450141/TG/2026",
+    "page": 3
+  },
+  {
+    "id": 48,
+    "sno": 58,
+    "product_name": "Cefepime + Sulbactam powder for the preparation of solution for intravenous and intramuscular administration 1.0 g + 1.0 g",
+    "brand_name": "CEFEPIME SULBACTAM",
+    "license_no": "Lic.No.4450141/TG/2026",
+    "page": 3
+  },
+  {
+    "id": 49,
+    "sno": 59,
+    "product_name": "Cefepime + Sulbactam powder for the preparation of solution for intravenous and intramuscular administration 2.0 g + 2.0 g",
+    "brand_name": "CEFEPIME SULBACTAM",
+    "license_no": "Lic.No.4450141/TG/2026",
+    "page": 3
+  },
+  {
+    "id": 50,
+    "sno": 60,
+    "product_name": "Cefazolin powder for solution for intravenous and intramuscular injection 500mg",
+    "brand_name": "CEFAZOLIN",
+    "license_no": "L.Dis.No.4449983/TS/2026",
+    "page": 3
+  },
+  {
+    "id": 51,
+    "sno": 61,
+    "product_name": "Cefazolin powder for solution for intravenous and intramuscular injection 1000mg",
+    "brand_name": "CEFAZOLIN",
+    "license_no": "L.Dis.No.4449983/TS/2026",
+    "page": 3
+  },
+  {
+    "id": 52,
+    "sno": 62,
+    "product_name": "Cefazolin powder for solution for intravenous and intramuscular injection 500mg",
+    "brand_name": "CEFAZOLIN",
+    "license_no": "L.Dis.No.4449983/TS/2026",
+    "page": 3
+  },
+  {
+    "id": 53,
+    "sno": 63,
+    "product_name": "Cefazolin powderfor solution for intravenous and intramuscular injection 1000mg",
+    "brand_name": "CEFAZOLIN",
+    "license_no": "L.Dis.No.4449983/TS/2026",
+    "page": 3
+  },
+  {
+    "id": 54,
+    "sno": 64,
+    "product_name": "Gemcitabine Lyophilizate for preparation of solution for infusion 200mg/vialONGECIN",
+    "brand_name": "ONGECIN",
+    "license_no": "L.Dis.No4068/E(S)/TS/2018",
+    "page": 3
+  },
+  {
+    "id": 55,
+    "sno": 65,
+    "product_name": "Gemcitabine lyophilizate for preparation of solution for infusion 1 g/vial ONGECIN",
+    "brand_name": "ONGECIN",
+    "license_no": "L.Dis.No4068/E(S)/TS/2018",
+    "page": 3
+  },
+  {
+    "id": 56,
+    "sno": 66,
+    "product_name": "Temozolomide lyophilisate for preparation of solution for infusion 100mg",
+    "brand_name": "Temomid",
+    "license_no": "L.Dis.No.914159/TS/2021",
+    "page": 3
+  },
+  {
+    "id": 57,
+    "sno": 67,
+    "product_name": "Pack size : 40mg/2 mL,100mg/5mL, 300mg/15mL",
+    "brand_name": "Irinotecan DJ",
+    "license_no": "L.Dis.No.1066391/TS/2021",
+    "page": 3
+  },
+  {
+    "id": 58,
+    "sno": 68,
+    "product_name": "Pemetrexed lyophilisate for preparation of solution for infusion 100 mg Pemetrexed lyophilisate for preparation of solution for infusion 500 mg",
+    "brand_name": "Pemetrexed DJ Pemetrexed DJ",
+    "license_no": "L.Dis.No.1066391/TS/2021 L.Dis.No.1066391/TS/2021",
+    "page": 3
+  },
+  {
+    "id": 59,
+    "sno": 70,
+    "product_name": "Cephalothin powderfor preparation of solution forintravenous and intramuscular administration 0.5 g",
+    "brand_name": "Cephalothin DJ",
+    "license_no": "L.Dis.No.1066391/TS/2021",
+    "page": 3
+  },
+  {
+    "id": 60,
+    "sno": 71,
+    "product_name": "intramuscular administration 1g",
+    "brand_name": "Cephalothin DJ",
+    "license_no": "L.Dis.No.1066391/TS/2021",
+    "page": 3
+  },
+  {
+    "id": 61,
+    "sno": 72,
+    "product_name": "Cephalothin powder for preparation of solution for intravenous and intramuscular administration 2 g",
+    "brand_name": "Cephalothin DJ",
+    "license_no": "L.Dis.No.1066391/TS/2021",
+    "page": 3
+  },
+  {
+    "id": 62,
+    "sno": 73,
+    "product_name": "Cefpirome powder for preparation of solution for intravenous and intramuscular administration 500 mg",
+    "brand_name": "Cefanorm",
+    "license_no": "L.Dis.No.1066391/TS/2021",
+    "page": 3
+  },
+  {
+    "id": 63,
+    "sno": 74,
+    "product_name": "Cefpirome powderforpreparation of solution for intravenous and intramuscular administration 1000 mg",
+    "brand_name": "Cefanorm",
+    "license_no": "L.Dis.No.1066391/TS/2021",
+    "page": 3
+  },
+  {
+    "id": 64,
+    "sno": 75,
+    "product_name": "Bortezomib lyophilisate for solution preparation for intravenous administration 2.5 mg",
+    "brand_name": "Bortezomib",
+    "license_no": "L.Dis.No.1066391/TS/2021",
+    "page": 3
+  },
+  {
+    "id": 65,
+    "sno": 76,
+    "product_name": "Bortezomib lyophilisate for solution preparation for intravenous administration 3.5 mg",
+    "brand_name": "Bortezomib",
+    "license_no": "L.Dis.No.1066391/TS/2021",
+    "page": 3
+  },
+  {
+    "id": 66,
+    "sno": 77,
+    "product_name": "Bortezomib lyophilisate for solution for intravenous and subcutaneous administration 3 mg.",
+    "brand_name": "Generic",
+    "license_no": "Lic.No.305838/TS/2022",
+    "page": 3
+  },
+  {
+    "id": 67,
+    "sno": 78,
+    "product_name": "Docetaxel concentrate for solution for infusion 20 mg/Ml (20mg/1mL) (40mg/2mL) (80mg/4mL)(120mg/6mL)(160mg/8mL) Page 3 of 10",
+    "brand_name": "HydDocetaxel",
+    "license_no": "L.Dis.No.2451968/TS/2022",
+    "page": 3
+  },
+  {
+    "id": 68,
+    "sno": 79,
+    "product_name": "Cabazitaxel concentrate solution forinfusion40mg/mL (60mg/1.5mL)",
+    "brand_name": "Cabazitaxel",
+    "license_no": "-",
+    "page": 4
+  },
+  {
+    "id": 69,
+    "sno": 80,
+    "product_name": "Fulvestrant Solutionforintramuscularadministration250mg/5mL",
+    "brand_name": "Fulvestrant",
+    "license_no": "L.Dis.No.4234054/TS/2024",
+    "page": 4
+  },
+  {
+    "id": 70,
+    "sno": 81,
+    "product_name": "Melphalan lyophilisate for preparing a solution for intravascular administration 50 mg",
+    "brand_name": "Jalaran",
+    "license_no": "L.Dis.No.4234054/TS/2024",
+    "page": 4
+  },
+  {
+    "id": 71,
+    "sno": 82,
+    "product_name": "(500mg/5mL)",
+    "brand_name": "Sanxamic",
+    "license_no": "L.Dis.No.3885952/TS/2023",
+    "page": 4
+  },
+  {
+    "id": 72,
+    "sno": 83,
+    "product_name": "Azacitidine lyophilisate for preparing a suspension for subcutaneous administration 100mg",
+    "brand_name": "Jocitadine",
+    "license_no": "L.Dis.No.4238121/TS/2024",
+    "page": 4
+  },
+  {
+    "id": 73,
+    "sno": 84,
+    "product_name": "(Lyophilized)",
+    "brand_name": "Polymyxin B",
+    "license_no": "L.Dis.No.4250680/TS/2024",
+    "page": 4
+  },
+  {
+    "id": 74,
+    "sno": 85,
+    "product_name": "Irinotecan [liposomall concentratefor the preparation of dispersionfor infusion 4.3 mg/mL(43mg/10mL)",
+    "brand_name": "Irinotecan DJ liposomal",
+    "license_no": "Lic.No.4263990/TS/2024",
+    "page": 4
+  },
+  {
+    "id": 75,
+    "sno": 86,
+    "product_name": "Paclitaxel lyophilisate for the preparation of suspension for infusions100 mg",
+    "brand_name": "Paclitaxel",
+    "license_no": "L.Dis.No.4267681/TS/2024",
+    "page": 4
+  },
+  {
+    "id": 76,
+    "sno": 87,
+    "product_name": "Carfilzomib lyophilisate for the preparation of solution for infusion 6Omg",
+    "brand_name": "Carfilzomib DJ",
+    "license_no": "L.Dis.No.4267681/TS/2024",
+    "page": 4
+  },
+  {
+    "id": 77,
+    "sno": 88,
+    "product_name": "Palonosetronsolutionforintravenousadministration0.25mg/5mL",
+    "brand_name": "Palonosetron",
+    "license_no": "L.Dis.No.4493804/TS/2026",
+    "page": 4
+  },
+  {
+    "id": 78,
+    "sno": 89,
+    "product_name": "Sodium Amidotrizoate Solution for Injection 600mg/mL)",
+    "brand_name": "NOVATRIZOATE",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 4
+  },
+  {
+    "id": 79,
+    "sno": 90,
+    "product_name": "Sodium Amidotrizoate Solution for Injection 760mg/mL)",
+    "brand_name": "NOVATRIZOATE",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 4
+  },
+  {
+    "id": 80,
+    "sno": 91,
+    "product_name": "Diatrizoate Meglumine and Diatrizoate Sodium Injection USP 600mg/mL)",
+    "brand_name": "NOVATRIZOATE",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 4
+  },
+  {
+    "id": 81,
+    "sno": 92,
+    "product_name": "Diatrizoate Meglumine and Diatrizoate Sodium Injection USP 760mg/mL)",
+    "brand_name": "NOVATRIZOATE",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 4
+  },
+  {
+    "id": 82,
+    "sno": 93,
+    "product_name": "lohexol solution for Injection 240 mg lodine/mL",
+    "brand_name": "Nioskan",
+    "license_no": "L.Dis.No.974907/TS/2021 L.Dis.No.5269/E1/2018",
+    "page": 4
+  },
+  {
+    "id": 83,
+    "sno": 94,
+    "product_name": "lohexol solution for Injection 300 mg lodine/mL",
+    "brand_name": "Nioskan",
+    "license_no": "L.Dis.No.974907/TS/2021 L.Dis.No.5269/E1/2018",
+    "page": 4
+  },
+  {
+    "id": 84,
+    "sno": 95,
+    "product_name": "lohexol solutionforInjection350 mglodine/mL",
+    "brand_name": "Nioskan",
+    "license_no": "L.Dis.No.974907/TS/2021 L.Dis.No.5269/E1/2018",
+    "page": 4
+  },
+  {
+    "id": 85,
+    "sno": 96,
+    "product_name": "Gadotericacido.5mmol/mL intravenous solutionforsolutionfor Injection (279.32mg/mL)",
+    "brand_name": "Gadoteric acid DJ",
+    "license_no": "L.Dis.No.1076579/TS/2021",
+    "page": 4
+  },
+  {
+    "id": 86,
+    "sno": 97,
+    "product_name": "Gadobutrol 1.0 mmol/ml solution for injection(15mL)",
+    "brand_name": "ZEGUDEX",
+    "license_no": "L.Dis.No.4271460/TS/2025",
+    "page": 4
+  },
+  {
+    "id": 87,
+    "sno": 98,
+    "product_name": "Gadobutrol 1.0 mmol/ml solution for injection(30mL)",
+    "brand_name": "ZEGUDEX",
+    "license_no": "L.Dis.No.4271460/TS/2025",
+    "page": 4
+  },
+  {
+    "id": 88,
+    "sno": 99,
+    "product_name": "Esomeprazole Sodium lyophilized for preparation of concentrate for preparation of solution for intravenous administration 40mg",
+    "brand_name": "ESOMEPRAZOLE DJ",
+    "license_no": "L.Dis.No.305696/TS/2020",
+    "page": 4
+  },
+  {
+    "id": 89,
+    "sno": 100,
+    "product_name": "Esomeprazole Sodium lyophilized for preparation of concentrate for preparation of solution for intravenous administration 2Omg",
+    "brand_name": "ESOMEPRAZOLE DJ",
+    "license_no": "L.Dis.No.1785/E1/2020",
+    "page": 4
+  },
+  {
+    "id": 90,
+    "sno": 101,
+    "product_name": "Caspofungin lyophilized for preparation of solution for infusion 5Omg",
+    "brand_name": "CASPOFUNGINDJ",
+    "license_no": "L.Dis.No.357542/TS/2020",
+    "page": 4
+  },
+  {
+    "id": 91,
+    "sno": 102,
+    "product_name": "Caspofungin lyophilized for preparation of solution for infusion 70mg",
+    "brand_name": "CASPOFUNGIN DJ",
+    "license_no": "L.Dis.No.357542/TS/2020",
+    "page": 4
+  },
+  {
+    "id": 92,
+    "sno": 103,
+    "product_name": "Eptifibatide Solution for intravenous administration 0.75mg/ml (75mg/100mL)",
+    "brand_name": "Koromax",
+    "license_no": "L.Dis.No.651043/TS/2021 L.Dis.No.5269/E1/2018",
+    "page": 4
+  },
+  {
+    "id": 93,
+    "sno": 104,
+    "product_name": "Eptifibatide Solution for intravenous administration 2 mg /ml (20mg/10mL)",
+    "brand_name": "Koromax",
+    "license_no": "L.Dis.No.651043/TS/2021",
+    "page": 4
+  },
+  {
+    "id": 94,
+    "sno": 105,
+    "product_name": "Vancomycin Lyophilized for making solution for infusion 5oOmg",
+    "brand_name": "Vancomycin Jodas",
+    "license_no": "L.Dis.No.651043/TS/2021",
+    "page": 4
+  },
+  {
+    "id": 95,
+    "sno": 106,
+    "product_name": "Hyderabad Vancomycin Lyophilized for making solution for infusion 1000mg",
+    "brand_name": "Vancomycin Jodas",
+    "license_no": "L.Dis.No.651043/TS/2021",
+    "page": 4
+  },
+  {
+    "id": 96,
+    "sno": 107,
+    "product_name": "Tigecycline Lyophilisate for preparation of solution for infusion 50 mg Page 4 of 10",
+    "brand_name": "Tigecycline DJ",
+    "license_no": "L.Dis.No.651043/TS/2021",
+    "page": 4
+  },
+  {
+    "id": 97,
+    "sno": 108,
+    "product_name": "Acyclovir Lyophilisate for preparation of solution for infusion'5o0 mg",
+    "brand_name": "ACYCLOVIR DJ",
+    "license_no": "-",
+    "page": 5
+  },
+  {
+    "id": 98,
+    "sno": 109,
+    "product_name": "Omeprazole Lyophilisate for preparation of solution for intravenous administration 40 mg",
+    "brand_name": "Omal",
+    "license_no": "-",
+    "page": 5
+  },
+  {
+    "id": 99,
+    "sno": 110,
+    "product_name": "Bivalirudin lyophilized for preparation of concentrate for preparation of solution for intravenous administration 250mg",
+    "brand_name": "BIVALIRUDIN DJ",
+    "license_no": "L.Dis.No.651043/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 100,
+    "sno": 111,
+    "product_name": "Heparin sodium Solution for intravenous and subcutaneous administration 1000IU/ml",
+    "brand_name": "Heparin DJ",
+    "license_no": "L.Dis.No.651043/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 101,
+    "sno": 112,
+    "product_name": "Heparin sodium Solution for intravenous and subcutaneous administration 5000 IU / ml",
+    "brand_name": "Heparin DJ",
+    "license_no": "L.Dis.No.651043/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 102,
+    "sno": 113,
+    "product_name": "Levosimendan Concentrate for solution for infusion 2.5 mg",
+    "brand_name": "Levosimendan DJ",
+    "license_no": "L.Dis.No.651043/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 103,
+    "sno": 114,
+    "product_name": "Paracetamol solution for infusion 10mg/mL (1000mg/100mL)",
+    "brand_name": "Paracetamol",
+    "license_no": "L.Dis.No762246/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 104,
+    "sno": 115,
+    "product_name": "Paracetamol solution for infusion 10mg/mL (500mg/50mL)",
+    "brand_name": "Paracetamol",
+    "license_no": "L.Dis.No792501/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 105,
+    "sno": 116,
+    "product_name": "Azithromycin Lyophilisate for preparation of solution for infusion 5o0 mg Clarithromycin Lyophilisate for preparation of solution for infusion 500 mg",
+    "brand_name": "Azithromycin DJ Clarithromycin DJ",
+    "license_no": "L.Dis.No478/E1/2021 L.Dis.No478/E1/2021",
+    "page": 5
+  },
+  {
+    "id": 106,
+    "sno": 118,
+    "product_name": "Polymyxin B",
+    "brand_name": "Polymyxin B",
+    "license_no": "L.Dis.No478/E1/2021",
+    "page": 5
+  },
+  {
+    "id": 107,
+    "sno": 119,
+    "product_name": "Polymyxin B",
+    "brand_name": "Polymyxin B",
+    "license_no": "L.Dis.No478/E1/2021",
+    "page": 5
+  },
+  {
+    "id": 108,
+    "sno": 120,
+    "product_name": "Vancomycin Lyophilized for making solution for infusion 5oOmg + 1 ampoule of Sterile Water for Injection 1mL(Combipack)",
+    "brand_name": "Vancomycin Jodas",
+    "license_no": "L.Dis.No.974907/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 109,
+    "sno": 121,
+    "product_name": "Vancomycin Lyophilized for making solution for infusion 5oOmg + 1 ampoule of Sterile Water for Injection 5mL(Combipack)",
+    "brand_name": "Vancomycin Jodas",
+    "license_no": "L.Dis.No.974907/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 110,
+    "sno": 122,
+    "product_name": "Vancomycin Lyophilized for making solution for infusion 50Omg +1 ampoule of Sterile Water for Injection 10mL(Combipack)",
+    "brand_name": "Vancomycin Jodas",
+    "license_no": "L.Dis.No.974907/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 111,
+    "sno": 123,
+    "product_name": "Vancomycin Lyophilized for making solution for infusion 1oomg + 1 ampoule of Sterile Water for Injection 1mL(Combipack)",
+    "brand_name": "Vancomycin Jodas",
+    "license_no": "L.Dis.No.974907/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 112,
+    "sno": 124,
+    "product_name": "Vancomycin Lyophilized for making solution for infusion 100Omg + 1 ampoule of Sterile Water for Injection 5mL(Combipack)",
+    "brand_name": "Vancomycin Jodas",
+    "license_no": "L.Dis.No.974907/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 113,
+    "sno": 125,
+    "product_name": "Vancomycin Lyophilized for making solution for infusion 1000mg + 1 ampoule of Sterile Water for Injection 10mL(Combipack)",
+    "brand_name": "Vancomycin Jodas",
+    "license_no": "L.Dis.No.974907/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 114,
+    "sno": 126,
+    "product_name": "Teicoplanin Lyophilisate for the preparation of a solution for intravenous and intramuscular administration 200 mg + 1 ampoule of Sterile Water for Iniection 5mL(Combipack)",
+    "brand_name": "Teicoplanin",
+    "license_no": "L.Dis.No.974907/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 115,
+    "sno": 127,
+    "product_name": "Teicoplanin Lyophilisate for the preparation of a solution for intravenous and intramuscular administration 400 mg + 1 ampoule of Sterile Water for Injection 5mL(Combipack)",
+    "brand_name": "Teicoplanin",
+    "license_no": "L.Dis.No.974907/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 116,
+    "sno": 128,
+    "product_name": "Colistimethate sodium powder for preparation of solution for inhalation 1000000 Units",
+    "brand_name": "Colistimethate DJ",
+    "license_no": "L.Dis.No.974907/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 117,
+    "sno": 129,
+    "product_name": "Dexamethasone Solution for injection 4 mg/ml",
+    "brand_name": "Dexamethasone",
+    "license_no": "L.Dis.No.974907/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 118,
+    "sno": 130,
+    "product_name": "Tobramycin for inhalation solution 60mg/mL (300mg/5mL)",
+    "brand_name": "Tobramycin DJ",
+    "license_no": "L.Dis.No.974907/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 119,
+    "sno": 131,
+    "product_name": "150mg/mL",
+    "brand_name": "Clindamycin DJ",
+    "license_no": "L.Dis.No.974907/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 120,
+    "sno": 132,
+    "product_name": "Acyclovir lyophilized for preparation of solution for infusion 250mg",
+    "brand_name": "ACYCLOVIRDJ",
+    "license_no": "Lic.No.1066387 /TS/2021",
+    "page": 5
+  },
+  {
+    "id": 121,
+    "sno": 133,
+    "product_name": "Acyclovir lyophilized for preparation of solution for infusion 10oOmg",
+    "brand_name": "ACYCLOVIRDJ",
+    "license_no": "Lic. No.1066387 /TS/2021",
+    "page": 5
+  },
+  {
+    "id": 122,
+    "sno": 134,
+    "product_name": "AztreonamPowderforpreparation of solutionfor intravenous and intramuscular administration 0.5 g",
+    "brand_name": "Aznam DJ",
+    "license_no": "L.Dis.No.1675513/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 123,
+    "sno": 135,
+    "product_name": "Aztreonam Powder for preparation of solution for intravenous and intramuscular administration 1.0 g Page 5 of 10",
+    "brand_name": "Aznam DJ Hyderabad",
+    "license_no": "L.Dis.No.1675513/TS/2021",
+    "page": 5
+  },
+  {
+    "id": 124,
+    "sno": 136,
+    "product_name": "Urapidil Solution for intravenous administration 5 mg / ml (25mg/5mL)",
+    "brand_name": "URAPIDIL DJ",
+    "license_no": "Lic.No.1036206/TS/2021",
+    "page": 6
+  },
+  {
+    "id": 125,
+    "sno": 137,
+    "product_name": "Urapidil Solution for intravenous administration 5 mg / ml (50mg/10mL)",
+    "brand_name": "URAPIDIL DJ",
+    "license_no": "Lic. No.1036206 /TS/2021",
+    "page": 6
+  },
+  {
+    "id": 126,
+    "sno": 138,
+    "product_name": "Urapidil Solution for intravenous administration 5 mg / ml (100mg/20mL)",
+    "brand_name": "URAPIDIL DJ",
+    "license_no": "Lic.No.1036206/TS/2021",
+    "page": 6
+  },
+  {
+    "id": 127,
+    "sno": 139,
+    "product_name": "Amphotericin B (liposomal) lyophilizate for preparation of concentrate for preparation of dispersion for infusion 5Omg",
+    "brand_name": "Amphotericin B liposomal",
+    "license_no": "L.Dis.No.2451968/TS/2022",
+    "page": 6
+  },
+  {
+    "id": 128,
+    "sno": 140,
+    "product_name": "Netilmicin solution for intravenous and intramuscular administration 25 mg / mL (50mg/2mL)",
+    "brand_name": "Netilmicin",
+    "license_no": "L.Dis.No.3112728/TS/2022",
+    "page": 6
+  },
+  {
+    "id": 129,
+    "sno": 141,
+    "product_name": "Netilmicin solution for intravenous and intramuscular administration 1o0 mg / mL (200mg/2mL)",
+    "brand_name": "Netilmicin",
+    "license_no": "L.Dis.No.3112728/TS/2022",
+    "page": 6
+  },
+  {
+    "id": 130,
+    "sno": 142,
+    "product_name": "Atropine sulfate Solution for injection 1mg/mL Sulfamethoxozole +Trimethoprim Concentrate for solution for infusion (80 mg + 16 mg)/mL (5mL fill)",
+    "brand_name": "Atropine Nova Co-Trimoxazole DJ",
+    "license_no": "L.Dis.No.3112728/TS/2022 L.Dis.No.3336464/TS/2022",
+    "page": 6
+  },
+  {
+    "id": 131,
+    "sno": 144,
+    "product_name": "Micafungin lyophilisate for preparation of solution for infusion 100 mg",
+    "brand_name": "Micafungin DJ",
+    "license_no": "L.Dis.No.3336464/TS/2022",
+    "page": 6
+  },
+  {
+    "id": 132,
+    "sno": 145,
+    "product_name": "Micafungin lyophilisate for preparation of solution for infusion 50 mg",
+    "brand_name": "Micafungin DJ",
+    "license_no": "L.Dis.No.3336464/TS/2022",
+    "page": 6
+  },
+  {
+    "id": 133,
+    "sno": 146,
+    "product_name": "Tranexamic acid Solution for intravenous administration 100 mg/ml(500mg/5mL)",
+    "brand_name": "Sanxamic",
+    "license_no": "L.Dis.No.3885952/TS/2023",
+    "page": 6
+  },
+  {
+    "id": 134,
+    "sno": 147,
+    "product_name": "Tranexamic acid Solution for intravenous administration 50 mg/ml (250mg/5mL)",
+    "brand_name": "Sanxamic",
+    "license_no": "L.Dis.No.4090088/TS/2023",
+    "page": 6
+  },
+  {
+    "id": 135,
+    "sno": 148,
+    "product_name": "Aztreonam lyophilisate for the preparation of solution for inhalation 75 mg + Sodium chloride solution 0.17%",
+    "brand_name": "Aznam-Liof",
+    "license_no": "L.Dis.No.4227011/TS/2024",
+    "page": 6
+  },
+  {
+    "id": 136,
+    "sno": 149,
+    "product_name": "Aztreonam lyophilisate for the preparation of solution Ifor inhalation 75 mg +Sodium chloride solution 0.17%",
+    "brand_name": "Aznam- Liof",
+    "license_no": "L.Dis.No.4227011/TS/2024",
+    "page": 6
+  },
+  {
+    "id": 137,
+    "sno": 150,
+    "product_name": "Voriconazole lyophilisate for the preparation of a concentrate for the preparation of a solution for infusion 200 mg",
+    "brand_name": "Voriconazole DJ",
+    "license_no": "L.Dis.No.4234054/TS/2024",
+    "page": 6
+  },
+  {
+    "id": 138,
+    "sno": 151,
+    "product_name": "(Lyophilized)",
+    "brand_name": "Polymyxin B",
+    "license_no": "L.Dis.No.4250680/TS/2024",
+    "page": 6
+  },
+  {
+    "id": 139,
+    "sno": 152,
+    "product_name": "Icatibant solution for subcutaneous administration 10 mg/mL(30mg/3mL)",
+    "brand_name": "Firatibant",
+    "license_no": "Lic.No.4234490 /TS/2024",
+    "page": 6
+  },
+  {
+    "id": 140,
+    "sno": 153,
+    "product_name": "Tirofibanconcentrateforsolutionforinfusiono.25mg/mL (12.5mg/50mL)",
+    "brand_name": "Tirofiban DJ",
+    "license_no": "L.Dis.No.4264650/TS/2024",
+    "page": 6
+  },
+  {
+    "id": 141,
+    "sno": 154,
+    "product_name": "Zoledronic acid 4mg/100mL solution for infusion(0.04mg/mL)",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4240119/TS/2024",
+    "page": 6
+  },
+  {
+    "id": 142,
+    "sno": 155,
+    "product_name": "Zoledronic acid lyophilisate for the preparation of solution for infusion 4mg",
+    "brand_name": "Zoledronic acid",
+    "license_no": "L.Dis.No.4264650/TS/2024",
+    "page": 6
+  },
+  {
+    "id": 143,
+    "sno": 156,
+    "product_name": "Amphotericin B concentrate for solution for infusion 5 mg/ml (2mL,10mL &20mL)",
+    "brand_name": "Amphotericin B lipidLic.No.4263990/TS/2024 DJ",
+    "license_no": "-",
+    "page": 6
+  },
+  {
+    "id": 144,
+    "sno": 157,
+    "product_name": "Trabectedin lyophilisate for the preparation of concentrate for preparation of solution for infusions 1 mg",
+    "brand_name": "Trabectedin",
+    "license_no": "L.Dis.No.4305015/TS/2025",
+    "page": 6
+  },
+  {
+    "id": 145,
+    "sno": 158,
+    "product_name": "Zoledronic acid lyophilisate for the preparation of concentrate for preparation of solution for infusions 4 mg",
+    "brand_name": "Zoledronic acid",
+    "license_no": "L.Dis.No.4305015/TS/2025",
+    "page": 6
+  },
+  {
+    "id": 146,
+    "sno": 159,
+    "product_name": "Zoledronic acid lyophilisate for the preparation of concentrate for preparation of solution for infusions 4 mg + Water for injection 5mL",
+    "brand_name": "Zoledronic acid",
+    "license_no": "L.Dis.No.4305015/TS/2025",
+    "page": 6
+  },
+  {
+    "id": 147,
+    "sno": 160,
+    "product_name": "Anidulafungin lyophilisate for the preparation of concentrate for the preparation of solution for infusions 100 mg",
+    "brand_name": "Anidulafungin DJ",
+    "license_no": "L.Dis.No.4305015/TS/2025",
+    "page": 6
+  },
+  {
+    "id": 148,
+    "sno": 161,
+    "product_name": "Urapidil solution for intravenous administration 5mg/mL (1OmL)",
+    "brand_name": "Urapidil DJ",
+    "license_no": "Lic.No.4308940/TG/2025",
+    "page": 6
+  },
+  {
+    "id": 149,
+    "sno": 162,
+    "product_name": "Urapidil solution for intravenous administration 5mg/mL (20mL)",
+    "brand_name": "Urapidil DJ",
+    "license_no": "Lic.No.4308940/TG/2025",
+    "page": 6
+  },
+  {
+    "id": 150,
+    "sno": 163,
+    "product_name": "Urapidil solution for intravenous administration 5mg/mL (5mL)",
+    "brand_name": "ra lpideinody",
+    "license_no": "Lic.No.4308940/TG/2025",
+    "page": 6
+  },
+  {
+    "id": 151,
+    "sno": 164,
+    "product_name": "Fosfomycin powder for preparation of solution for intravenous administration 0.5g/vial Page 6 of 10",
+    "brand_name": "Hyderastomycin DJ",
+    "license_no": "Lic. No.4306788 /TG/2025",
+    "page": 6
+  },
+  {
+    "id": 152,
+    "sno": 165,
+    "product_name": "Fosfomycin powder for preparation of solution for intravenous administration 1g/vial",
+    "brand_name": "Fosfomycin DJ",
+    "license_no": "Lic. No.4306788 /TG/2025",
+    "page": 7
+  },
+  {
+    "id": 153,
+    "sno": 166,
+    "product_name": "Fosfomycin powderforpreparation of solutionforintravenous administration 4g/vial",
+    "brand_name": "Fosfomycin DJ",
+    "license_no": "Lic. No.4306788 /TG/2025",
+    "page": 7
+  },
+  {
+    "id": 154,
+    "sno": 167,
+    "product_name": "Fosfomycin powderfor preparation of solution for intravenous administration2g/vial",
+    "brand_name": "Fosfomycin DJ",
+    "license_no": "Lic.No.4306788/TG/2025",
+    "page": 7
+  },
+  {
+    "id": 155,
+    "sno": 168,
+    "product_name": "Risdiplam Powder for preparation of a solution for oral administration 0.75mg/mL(60mg/80mL)",
+    "brand_name": "Diplam",
+    "license_no": "Lic.No.4306788 /TG/2025",
+    "page": 7
+  },
+  {
+    "id": 156,
+    "sno": 169,
+    "product_name": "Semaglutide solution for subcutaneous administration 0.25mg/0.5mg per dose (1.5mL fil Syringe Pen)",
+    "brand_name": "Semaglutide DJ,",
+    "license_no": "Lic.No.4306788/TG/2025",
+    "page": 7
+  },
+  {
+    "id": 157,
+    "sno": 170,
+    "product_name": "Semaglutide solution for subcutaneous administration 1mg per dose (3mL fill Syringe Pen)",
+    "brand_name": "Semaglutide DJ",
+    "license_no": "Lic.No.4306788 /TG/2025",
+    "page": 7
+  },
+  {
+    "id": 158,
+    "sno": 171,
+    "product_name": "Colistimethate sodium powder for solution for Injection, infusion or inhalation 1Million IU/vial",
+    "brand_name": "Colistimethate DJ",
+    "license_no": "L.Dis.No.4310068/TS/2025",
+    "page": 7
+  },
+  {
+    "id": 159,
+    "sno": 172,
+    "product_name": "Colistimethate sodium powder for solution for Injection, infusion or inhalation 2 Million IU/vial",
+    "brand_name": "Colistimethate DJ",
+    "license_no": "L.Dis.No.4310068/TS/2025",
+    "page": 7
+  },
+  {
+    "id": 160,
+    "sno": 173,
+    "product_name": "Daptomycin Lyophilisate for the preparation of solution for intravenous administration 350 mg",
+    "brand_name": "Daptomycin DJ",
+    "license_no": "L.Dis.No.4271461/TS/2025",
+    "page": 7
+  },
+  {
+    "id": 161,
+    "sno": 174,
+    "product_name": "Daptomycin Lyophilisate for the preparation of solution for intravenous administration 500 mg",
+    "brand_name": "Daptomycin DJ",
+    "license_no": "L.Dis.No.4271461/TS/2025",
+    "page": 7
+  },
+  {
+    "id": 162,
+    "sno": 175,
+    "product_name": "Vancomycin Lyophilisate for the preparation of solution for infusion and oral administration 500mg",
+    "brand_name": "VANCOMYCIN JODAS",
+    "license_no": "L.Dis.No.4303942/TS/2025",
+    "page": 7
+  },
+  {
+    "id": 163,
+    "sno": 176,
+    "product_name": "Vancomycin Lyophilisate for the preparation of solution for infusion and oral administration 1000mg",
+    "brand_name": "VANCOMYCIN JODAS",
+    "license_no": "L.Dis.No.4303942/TS/2025",
+    "page": 7
+  },
+  {
+    "id": 164,
+    "sno": 177,
+    "product_name": "Sugammadex solution for intravenous administration 100 mg/mL (200mg/2mL)",
+    "brand_name": "Sugammadex- DJ,",
+    "license_no": "Lic.No.4302175/TS/2025",
+    "page": 7
+  },
+  {
+    "id": 165,
+    "sno": 178,
+    "product_name": "Sugammadex solution for intravenous administration 100 mg/mL (500mg/5mL)",
+    "brand_name": "Sugammadex- DJ,",
+    "license_no": "Lic.No.4302175/TS/2025",
+    "page": 7
+  },
+  {
+    "id": 166,
+    "sno": 179,
+    "product_name": "Fosfomycin powder for preparation of solution for intravenous administration 3g/vial",
+    "brand_name": "Fosfomycin DJ",
+    "license_no": "Lic.No.4322524/TG/2025",
+    "page": 7
+  },
+  {
+    "id": 167,
+    "sno": 180,
+    "product_name": "Trientine Capsules 250mg",
+    "brand_name": "Vilperatine",
+    "license_no": "L.Dis.No.4436811/TS/2026",
+    "page": 7
+  },
+  {
+    "id": 168,
+    "sno": 181,
+    "product_name": "Tofacitinib film-coated tablets 5mg",
+    "brand_name": "Tofacitinib DJ",
+    "license_no": "L.Dis.No.4436811/TS/2026",
+    "page": 7
+  },
+  {
+    "id": 169,
+    "sno": 182,
+    "product_name": "Tofacitinib film-coated tablets 10mg",
+    "brand_name": "Tofacitinib DJ",
+    "license_no": "L.Dis.No.4436811/TS/2026",
+    "page": 7
+  },
+  {
+    "id": 170,
+    "sno": 183,
+    "product_name": "Carglumic acid Dispersible Tablets 200mg",
+    "brand_name": "Carbamylglutamate-Lic. No.4322866 /TG/ 2026",
+    "license_no": "-",
+    "page": 7
+  },
+  {
+    "id": 171,
+    "sno": 184,
+    "product_name": "Icatibant solution for subcutaneousadministration 10 mg/mL (30mg/3ml)",
+    "brand_name": "FIRATIBANT",
+    "license_no": "Lic.No.4450141/TG/2026",
+    "page": 7
+  },
+  {
+    "id": 172,
+    "sno": 185,
+    "product_name": "Tranexamic acid Solution for intravenous administration 50 mg/ml (250mg/5mL)",
+    "brand_name": "Sanxamic",
+    "license_no": "Lic.No.4450141 /TG/2026",
+    "page": 7
+  },
+  {
+    "id": 173,
+    "sno": 186,
+    "product_name": "ACYCLOVIR DJ",
+    "brand_name": "ACYCLOVIR DJ",
+    "license_no": "Lic. No.4494210 /TG/2026",
+    "page": 7
+  },
+  {
+    "id": 174,
+    "sno": 187,
+    "product_name": "Acyclovir lyophilized for preparation of solution for infusion 250mg",
+    "brand_name": "ACYCLOVIR DJ",
+    "license_no": "Lic. No.4494210 /TG/2026",
+    "page": 7
+  },
+  {
+    "id": 175,
+    "sno": 188,
+    "product_name": "AbirateroneTablets500mg",
+    "brand_name": "ABIRAPROST",
+    "license_no": "L.Dis.No.2021/E1/2020",
+    "page": 7
+  },
+  {
+    "id": 176,
+    "sno": 189,
+    "product_name": "Erlotinib film coated tablets 25 mg",
+    "brand_name": "Tarlenib",
+    "license_no": "L.Dis.No.1086689/TS/2021",
+    "page": 7
+  },
+  {
+    "id": 177,
+    "sno": 190,
+    "product_name": "Erlotinib film coated tablets 100 mg",
+    "brand_name": "Tarlenib",
+    "license_no": "L.Dis.No.1086689/TS/2021",
+    "page": 7
+  },
+  {
+    "id": 178,
+    "sno": 191,
+    "product_name": "Erlotinib film coated tablets 150 mg tpolm",
+    "brand_name": "Tarlenib",
+    "license_no": "L.Dis.No.1086689/TS/2021",
+    "page": 7
+  },
+  {
+    "id": 179,
+    "sno": 192,
+    "product_name": "AbirateroneTablets250mg Hyderabad",
+    "brand_name": "ABIRAPROST",
+    "license_no": "L.Dis.No.152627/TS/2022",
+    "page": 7
+  },
+  {
+    "id": 180,
+    "sno": 193,
+    "product_name": "[Abiraterone Tablets 500mg",
+    "brand_name": "ABIRAPROST",
+    "license_no": "-",
+    "page": 8
+  },
+  {
+    "id": 181,
+    "sno": 194,
+    "product_name": "Temomide",
+    "brand_name": "Temomide",
+    "license_no": "-",
+    "page": 8
+  },
+  {
+    "id": 182,
+    "sno": 195,
+    "product_name": "Temozolomide Capsules 20mg",
+    "brand_name": "Temomide",
+    "license_no": "L.Dis.No.152615/TS/2023",
+    "page": 8
+  },
+  {
+    "id": 183,
+    "sno": 196,
+    "product_name": "Temozolomide Capsules 100mg",
+    "brand_name": "Temomide",
+    "license_no": "L.Dis.No.152615/TS/2023",
+    "page": 8
+  },
+  {
+    "id": 184,
+    "sno": 197,
+    "product_name": "Temozolomide Capsules 140mg",
+    "brand_name": "Temomide",
+    "license_no": "L.Dis.No.152615/TS/2023",
+    "page": 8
+  },
+  {
+    "id": 185,
+    "sno": 198,
+    "product_name": "Temozolomide Capsules 180mg",
+    "brand_name": "Temomide",
+    "license_no": "L.Dis.No.152615/TS/2023",
+    "page": 8
+  },
+  {
+    "id": 186,
+    "sno": 199,
+    "product_name": "Temozolomide Capsules250mg",
+    "brand_name": "Temomide",
+    "license_no": "L.Dis.No.152615/TS/2023",
+    "page": 8
+  },
+  {
+    "id": 187,
+    "sno": 200,
+    "product_name": "Gefitinib Tablets 250 mg",
+    "brand_name": "QUALITINIB",
+    "license_no": "L.Dis.No.4229663/TS/2024",
+    "page": 8
+  },
+  {
+    "id": 188,
+    "sno": 201,
+    "product_name": "Eltrombopag film coated tablets 12.5 mg",
+    "brand_name": "ELTROMACT",
+    "license_no": "Lic.No.4232903/TS/2024",
+    "page": 8
+  },
+  {
+    "id": 189,
+    "sno": 202,
+    "product_name": "Eltrombopag film coated tablets 25 mg",
+    "brand_name": "ELTROMACT",
+    "license_no": "Lic.No.4232903/TS/2024",
+    "page": 8
+  },
+  {
+    "id": 190,
+    "sno": 203,
+    "product_name": "Eltrombopagfilmcoatedtablets50mg",
+    "brand_name": "ELTROMACT",
+    "license_no": "Lic.No.4232903 /TS/2024",
+    "page": 8
+  },
+  {
+    "id": 191,
+    "sno": 204,
+    "product_name": "Eltrombopag film coated tablets 75 mg",
+    "brand_name": "ELTROMACT",
+    "license_no": "Lic.No.4232903 /TS/2024",
+    "page": 8
+  },
+  {
+    "id": 192,
+    "sno": 205,
+    "product_name": "Cladribine Tablets 10mg",
+    "brand_name": "Cladribine DJ",
+    "license_no": "Lic. No.4232777 /TS/ 2024",
+    "page": 8
+  },
+  {
+    "id": 193,
+    "sno": 206,
+    "product_name": "Cabozantinib film coated tablets 20mg",
+    "brand_name": "ELPAG 50",
+    "license_no": "Lic.No.4306787/TG/2025",
+    "page": 8
+  },
+  {
+    "id": 194,
+    "sno": 207,
+    "product_name": "Cabozantinibfilm coatedtablets40mg",
+    "brand_name": "ELPAG 50",
+    "license_no": "Lic.No.4306787/TG/2025",
+    "page": 8
+  },
+  {
+    "id": 195,
+    "sno": 208,
+    "product_name": "Cabozantinib film coatedtablets 60mg",
+    "brand_name": "ELPAG50",
+    "license_no": "Lic.No.4306787/TG/2025",
+    "page": 8
+  },
+  {
+    "id": 196,
+    "sno": 209,
+    "product_name": "Cabozantinib film coated tablets 20mg",
+    "brand_name": "ELPAG 50",
+    "license_no": "Lic.No.4306787 /TG/2025",
+    "page": 8
+  },
+  {
+    "id": 197,
+    "sno": 210,
+    "product_name": "Cabozantinib film coatedtablets 4Omg",
+    "brand_name": "ELPAG50",
+    "license_no": "Lic. No.4306787 /TG/2025",
+    "page": 8
+  },
+  {
+    "id": 198,
+    "sno": 211,
+    "product_name": "Cabozantinib film coated tablets 60mg",
+    "brand_name": "ELPAG 50",
+    "license_no": "Lic.No.4306787 /TG/2025",
+    "page": 8
+  },
+  {
+    "id": 199,
+    "sno": 212,
+    "product_name": "Eltrombopag film coated tablets 12.5 mg",
+    "brand_name": "ELTROMACT",
+    "license_no": "Lic. No.4450139 /TG/ 2026",
+    "page": 8
+  },
+  {
+    "id": 200,
+    "sno": 213,
+    "product_name": "Eltrombopag film coated tablets 25 mg",
+    "brand_name": "ELTROMACT",
+    "license_no": "Lic.No.4450139 /TG/2026",
+    "page": 8
+  },
+  {
+    "id": 201,
+    "sno": 214,
+    "product_name": "Eltrombopag film coated tablets 50 mg",
+    "brand_name": "ELTROMACT",
+    "license_no": "Lic.No.4450139 /TG/2026",
+    "page": 8
+  },
+  {
+    "id": 202,
+    "sno": 215,
+    "product_name": "Eltrombopag film coated tablets 75 mg",
+    "brand_name": "ELTROMACT",
+    "license_no": "Lic. No.4450139 /TG/2026",
+    "page": 8
+  },
+  {
+    "id": 203,
+    "sno": 216,
+    "product_name": "Cilostazole Tablets 50mg",
+    "brand_name": "PLETAX",
+    "license_no": "L.Dis.No4449994/TS/2026",
+    "page": 8
+  },
+  {
+    "id": 204,
+    "sno": 217,
+    "product_name": "Cilostazole Tablets 100mg",
+    "brand_name": "PLETAX",
+    "license_no": "L.Dis.No4449994/TS/2026",
+    "page": 8
+  },
+  {
+    "id": 205,
+    "sno": 218,
+    "product_name": "Plerixafor solution for subcutaneous administration 20 mg/ml (1.2mL fill)",
+    "brand_name": "Plerixafor DJ",
+    "license_no": "L.Dis.No.3336464/TS/2022",
+    "page": 8
+  },
+  {
+    "id": 206,
+    "sno": 219,
+    "product_name": "Ferric Carboxymaltose solution for injection 5Omg iron/mL",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4310069/TS/2025",
+    "page": 8
+  },
+  {
+    "id": 207,
+    "sno": 220,
+    "product_name": "Dexmedetomidine concentrate for preparation of solution for infusions 100 mcg/mL",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4398153/TS/2025",
+    "page": 8
+  },
+  {
+    "id": 208,
+    "sno": 221,
+    "product_name": "Carboplatin concentrate for the preparation of solution for infusion 10mg/mL(150 mg/15 mL) Hyderabad Page 8of 10",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4398153/TS/2025",
+    "page": 8
+  },
+  {
+    "id": 209,
+    "sno": 222,
+    "product_name": "administration20 mg/mL (100mg/5mL)",
+    "brand_name": "Generic",
+    "license_no": "-",
+    "page": 9
+  },
+  {
+    "id": 210,
+    "sno": 223,
+    "product_name": "GadopentetateDimeglumine Injection USP469.01mg/ml",
+    "brand_name": "Generic",
+    "license_no": "-",
+    "page": 9
+  },
+  {
+    "id": 211,
+    "sno": 224,
+    "product_name": "lopromide solution for Injection 240mg lodine/mL",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 212,
+    "sno": 225,
+    "product_name": "lopromidesolutionforInjection30Omglodine/mL",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 213,
+    "sno": 226,
+    "product_name": "lopromide solution for Injection 370mg lodine/mL",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 214,
+    "sno": 227,
+    "product_name": "lopamidol Solutionfor Injection200mglodine/mL",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 215,
+    "sno": 228,
+    "product_name": "lopamidol SolutionforInjection30Omg lodine/mL",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 216,
+    "sno": 229,
+    "product_name": "lopamidol Solution for Injection370mglodine/mL",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 217,
+    "sno": 230,
+    "product_name": "Gadobutrol 1.0 mmol/mL Solution for Injection (604.72mg/mL)",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 218,
+    "sno": 231,
+    "product_name": "Gadodiamide Solution for Intravenous administration O.5m mol/mL(287mg)",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 219,
+    "sno": 232,
+    "product_name": "lodixanolSolutionforInjection150mglodine/mL",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 220,
+    "sno": 233,
+    "product_name": "lodixanol Solutionfor Injection27Omg lodine/mL",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 221,
+    "sno": 234,
+    "product_name": "",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018 L.Dis.No1697/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 222,
+    "sno": 235,
+    "product_name": "ANASTROZOLETABLETS 1mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.13384/E(S)/TS/2017",
+    "page": 9
+  },
+  {
+    "id": 223,
+    "sno": 236,
+    "product_name": "CAPECITABINETABLETS 150mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 224,
+    "sno": 237,
+    "product_name": "CAPECITABINETABLETS 500 mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 225,
+    "sno": 238,
+    "product_name": "Oxaliplatin concentrate for preparation of solution for infusion 2mg/mL (50mg/25ml)",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4068/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 226,
+    "sno": 239,
+    "product_name": "Oxaliplatin concentrate for preparation of solution forinfusion 2mg/mL (100mg/50ml)",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4068/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 227,
+    "sno": 240,
+    "product_name": "Eribulin solution for intravenous administration 1mg/2mL (0.5mg/mL)",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4215042/TS/2023",
+    "page": 9
+  },
+  {
+    "id": 228,
+    "sno": 241,
+    "product_name": "GEFITINIB TABLETS 250 mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 229,
+    "sno": 242,
+    "product_name": "IMATINIB TABLETS 100 mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 230,
+    "sno": 243,
+    "product_name": "IMATINIBTABLETS 400 mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No1696/E(S)/TS/2018",
+    "page": 9
+  },
+  {
+    "id": 231,
+    "sno": 244,
+    "product_name": "Pegaspargase for Injection 3750 IU/vial (Lyophilized)",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.2247862/TS/2022",
+    "page": 9
+  },
+  {
+    "id": 232,
+    "sno": 245,
+    "product_name": "[Pegaspargase Injection 3750IU/5 mL (750 IU/mL)",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4208418/TS/2023",
+    "page": 9
+  },
+  {
+    "id": 233,
+    "sno": 246,
+    "product_name": "LETROZOLE TABLETS 2.5 mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.13384/E(S)/TS/2017",
+    "page": 9
+  },
+  {
+    "id": 234,
+    "sno": 247,
+    "product_name": "Afatinib film coated tablets 20 mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4268735/TS/2024",
+    "page": 9
+  },
+  {
+    "id": 235,
+    "sno": 248,
+    "product_name": "[Afatinib film coated tablets 30 mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4268735/TS/2024",
+    "page": 9
+  },
+  {
+    "id": 236,
+    "sno": 249,
+    "product_name": "Afatinib film coated tablets 40 mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4268735/TS/2024",
+    "page": 9
+  },
+  {
+    "id": 237,
+    "sno": 250,
+    "product_name": "Afatinib film coated tablets 50 mg Page 9 of 10",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.4268735/TS/2024",
+    "page": 9
+  },
+  {
+    "id": 238,
+    "sno": 251,
+    "product_name": "Ruxolitinib DJ",
+    "brand_name": "Ruxolitinib DJ",
+    "license_no": "-",
+    "page": 10
+  },
+  {
+    "id": 239,
+    "sno": 10,
+    "product_name": "Ruxolitinib DJ",
+    "brand_name": "Ruxolitinib DJ",
+    "license_no": "-",
+    "page": 10
+  },
+  {
+    "id": 240,
+    "sno": 253,
+    "product_name": "Ruxolitinib Tablets 15mg",
+    "brand_name": "Ruxolitinib DJ",
+    "license_no": "L.Dis.No.4270498/TS/2025",
+    "page": 10
+  },
+  {
+    "id": 241,
+    "sno": 254,
+    "product_name": "Ruxolitinib Tablets 20mg",
+    "brand_name": "Ruxolitinib DJ",
+    "license_no": "L.Dis.No.4270498/TS/2025",
+    "page": 10
+  },
+  {
+    "id": 242,
+    "sno": 255,
+    "product_name": "Ibrutinib Capsules 140 mg",
+    "brand_name": "Ibrukur",
+    "license_no": "L.Dis.No.4270498/TS/2025",
+    "page": 10
+  },
+  {
+    "id": 243,
+    "sno": 256,
+    "product_name": "Nilotinib Capsules 50mg",
+    "brand_name": "Nilotinib",
+    "license_no": "L.Dis.No.4398150/TS/2025",
+    "page": 10
+  },
+  {
+    "id": 244,
+    "sno": 257,
+    "product_name": "NilotinibCapsules 150mg",
+    "brand_name": "Nilotinib",
+    "license_no": "L.Dis.No.4398150/TS/2025",
+    "page": 10
+  },
+  {
+    "id": 245,
+    "sno": 258,
+    "product_name": "Nilotinib Capsules 200mg",
+    "brand_name": "Nilotinib",
+    "license_no": "L.Dis.No.4398150/TS/2025",
+    "page": 10
+  },
+  {
+    "id": 246,
+    "sno": 259,
+    "product_name": "Pomalidomide Capsules 1 mg",
+    "brand_name": "Pomalidomide DJ",
+    "license_no": "L.Dis.No.4304957/TS/2025",
+    "page": 10
+  },
+  {
+    "id": 247,
+    "sno": 260,
+    "product_name": "Pomalidomide Capsules 2mg",
+    "brand_name": "Pomalidomide DJ",
+    "license_no": "L.Dis.No.4304957/TS/2025",
+    "page": 10
+  },
+  {
+    "id": 248,
+    "sno": 261,
+    "product_name": "Pomalidomide Capsules 3 mg",
+    "brand_name": "Pomalidomide DJ",
+    "license_no": "L.Dis.No.4304957/TS/2025",
+    "page": 10
+  },
+  {
+    "id": 249,
+    "sno": 262,
+    "product_name": "Pomalidomide Capsules 4 mg",
+    "brand_name": "Pomalidomide DJ",
+    "license_no": "L.Dis.No.4304957/TS/2025",
+    "page": 10
+  },
+  {
+    "id": 250,
+    "sno": 263,
+    "product_name": "PalbociclibCapsules75mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.152624/TS/2022",
+    "page": 10
+  },
+  {
+    "id": 251,
+    "sno": 264,
+    "product_name": "Palbociclib Capsules100mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.152624/TS/2022",
+    "page": 10
+  },
+  {
+    "id": 252,
+    "sno": 265,
+    "product_name": "Palbociclib Capsules 125 mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.152624/TS/2022",
+    "page": 10
+  },
+  {
+    "id": 253,
+    "sno": 266,
+    "product_name": "Sorafenib Tablets 200mg",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.60811/TS/2019",
+    "page": 10
+  },
+  {
+    "id": 254,
+    "sno": 267,
+    "product_name": "MercaptopurineTablets BP5Omg",
+    "brand_name": "MERCAJO",
+    "license_no": "L.Dis.No.1086689/TS/2021",
+    "page": 10
+  },
+  {
+    "id": 255,
+    "sno": 268,
+    "product_name": "Tobramycin for inhalation solution 75mg/mL (300mg/4mL) For Jodas Expoim Pvt.Ltd. Dr.Jyoti Loomba se Chief Managing Director Hyderabad Page 10 of 10",
+    "brand_name": "Generic",
+    "license_no": "L.Dis.No.2751/E1/2020",
+    "page": 10
+  }
+];
+window.cat2Data = [
+  {
+    "id": 1,
+    "sno": 10,
+    "product_name": "CEPHALOTHIN FOR INJECTION USP 2 g",
+    "license_no": "2016-17/3230",
+    "page": 11
+  },
+  {
+    "id": 2,
+    "sno": 11,
+    "product_name": "CEPHALOTHIN FOR INJECTION USP 50O mg",
+    "license_no": "2016-17/3230",
+    "page": 11
+  },
+  {
+    "id": 3,
+    "sno": 12,
+    "product_name": "CEPHALOTHIN FOR INJECTION USP 1 g",
+    "license_no": "2016-17/3230",
+    "page": 11
+  },
+  {
+    "id": 4,
+    "sno": 13,
+    "product_name": "CEPHALOTHIN FOR INJECTION USP 2 g",
+    "license_no": "2016-17/3230",
+    "page": 11
+  },
+  {
+    "id": 5,
+    "sno": 14,
+    "product_name": "CEPHALOTHIN FOR INJECTION USP 500 mg",
+    "license_no": "2016-17/3230",
+    "page": 11
+  },
+  {
+    "id": 6,
+    "sno": 15,
+    "product_name": "CEPHALOTHIN FOR INJECTION USP 1 g",
+    "license_no": "2016-17/3230",
+    "page": 11
+  },
+  {
+    "id": 7,
+    "sno": 16,
+    "product_name": "CEPHALOTHIN FOR INJECTION USP 2 g CEFZOXIMEDJ (Ceftizoximepowderforpreparationof solutionfor",
+    "license_no": "2016-17/3230 2016-17/4715",
+    "page": 11
+  },
+  {
+    "id": 8,
+    "sno": 18,
+    "product_name": "Cefotiam for Injection USP 1 g",
+    "license_no": "2016-17-15596",
+    "page": 11
+  },
+  {
+    "id": 9,
+    "sno": 19,
+    "product_name": "Cefotiam for Injection USP 2 g",
+    "license_no": "2016-17-15596",
+    "page": 11
+  },
+  {
+    "id": 10,
+    "sno": 20,
+    "product_name": "Cefoxitin for Injection USP 500 mg",
+    "license_no": "2016-17-15596",
+    "page": 11
+  },
+  {
+    "id": 11,
+    "sno": 21,
+    "product_name": "Cefoxitin for Injection USP 1g Cefoxitin for Injection USP 2g",
+    "license_no": "2016-17-15596 2016-17-15596",
+    "page": 11
+  },
+  {
+    "id": 12,
+    "sno": 23,
+    "product_name": "CEFZOXIMDJ (Ceftizoximepowderfor preparation of solution forIntramuscularand Intravenous",
+    "license_no": "2017-18-3375",
+    "page": 11
+  },
+  {
+    "id": 13,
+    "sno": 24,
+    "product_name": "Imatinib Capules400mg",
+    "license_no": "3901/E1/2019",
+    "page": 11
+  },
+  {
+    "id": 14,
+    "sno": 25,
+    "product_name": "Imatinib Capules 100mg",
+    "license_no": "3901/E1/2019",
+    "page": 11
+  },
+  {
+    "id": 15,
+    "sno": 26,
+    "product_name": "Amphotericin B concentrate for solution for infusion 5 mg/ml Rabeprazole lyophilisatefor thepreparation of solution for intravenous administration",
+    "license_no": "2024/001777",
+    "page": 11
+  },
+  {
+    "id": 16,
+    "sno": 27,
+    "product_name": "20 milligram Irinotecan[liposomal] concentrateforthepreparation ofdispersionforinfusion 43mg/10mL4.3 mg/ml",
+    "license_no": "2024/001777 2024/001777",
+    "page": 11
+  },
+  {
+    "id": 17,
+    "sno": 29,
+    "product_name": "Omadacyclinelyophilisateforthepreparationof solution for infusion 100 milligram",
+    "license_no": "2024/001777",
+    "page": 11
+  },
+  {
+    "id": 18,
+    "sno": 30,
+    "product_name": "Cladribine Tablets 10 milligram",
+    "license_no": "2024/001884",
+    "page": 11
+  },
+  {
+    "id": 19,
+    "sno": 31,
+    "product_name": "Octreotide Acetate For Injectable Suspension 20 milligram-OCTEJO LAR Sugammadex solution for intravenous admihistratidnr100dmg/mL (500mg/5mL) 100 mg/ml-Sugammadex-DJ",
+    "license_no": "2024/005359 2025/003645",
+    "page": 11
+  },
+  {
+    "id": 20,
+    "sno": 33,
+    "product_name": "mg/ml",
+    "license_no": "2025/003645",
+    "page": 12
+  },
+  {
+    "id": 21,
+    "sno": 34,
+    "product_name": "Cabozantinib film coated tablets 4Omg-Cabozantinib DJ Cabozantinib film coated tablets 6Omg-Cabozantinib DJ",
+    "license_no": "2025/005752 2025/005746",
+    "page": 12
+  },
+  {
+    "id": 22,
+    "sno": 36,
+    "product_name": "Risdiplam Powderforpreparation of a solution fororaladministration 0.75mg/mL (60mg/80mL)-Diplam Fosfomycin powder for preparation of solution for intravenous administration 2 g /Vial -",
+    "license_no": "2025/005708",
+    "page": 12
+  },
+  {
+    "id": 23,
+    "sno": 37,
+    "product_name": "Fosfomycin DJ",
+    "license_no": "2025/006271",
+    "page": 12
+  },
+  {
+    "id": 24,
+    "sno": 38,
+    "product_name": "Fosfomycin powder for preparation of solution for intravenous administration 1 g /Vial - Fosfomycin DJ Fosfomycin powder for preparation of solution for intravenous administration 4 g /Vial - Fosfomycin DJ Fosfomycin powder for preparation of solution for intravenous administration o.5 g /Vial",
+    "license_no": "2025/006268 2025/006266",
+    "page": 12
+  },
+  {
+    "id": 25,
+    "sno": 40,
+    "product_name": "- Fosfomycin DJ Semaglutide solution for subcutaneous administration 0.25mg/0.5mg per dose (1.5mL",
+    "license_no": "2025/006309",
+    "page": 12
+  },
+  {
+    "id": 26,
+    "sno": 41,
+    "product_name": "fill Syringe Pen) - Semaglutide DJ",
+    "license_no": "2025/005996",
+    "page": 12
+  },
+  {
+    "id": 27,
+    "sno": 42,
+    "product_name": "Urapidil solution for intravenous administration 5mg/mL (1OmL)-Urapidil DJ Semaglutide solution for subcutaneous administration 1mg per dose (3mL fill Syringe",
+    "license_no": "2025/008114",
+    "page": 12
+  },
+  {
+    "id": 28,
+    "sno": 43,
+    "product_name": "Pen)-SemaglutideDJ",
+    "license_no": "2025/006273",
+    "page": 12
+  },
+  {
+    "id": 29,
+    "sno": 44,
+    "product_name": "Urapidil solution for intravenous administration 5mg/mL (5mL) - Urapidil DJ",
+    "license_no": "2025/008113",
+    "page": 12
+  },
+  {
+    "id": 30,
+    "sno": 45,
+    "product_name": "Urapidil solution for intravenous administration 5mg/mL (2OmL)- Urapidil DJ",
+    "license_no": "2025/008115",
+    "page": 12
+  },
+  {
+    "id": 31,
+    "sno": 46,
+    "product_name": "Urapidil solution for intravenous administration 5mg/mL (10mL)",
+    "license_no": "2025/008876",
+    "page": 12
+  },
+  {
+    "id": 32,
+    "sno": 47,
+    "product_name": "Urapidil solution for intravenous administration 5mg/mL (25mg/5mL)",
+    "license_no": "2025/009218",
+    "page": 12
+  },
+  {
+    "id": 33,
+    "sno": 48,
+    "product_name": "Urapidil solution for intravenous administration 5mg/mL (20mL)",
+    "license_no": "2025/008873",
+    "page": 12
+  },
+  {
+    "id": 34,
+    "sno": 49,
+    "product_name": "Sulbactam powder for solution for intravenous and intramuscular administration 10o0 mg- Sulbactam DJ Sulbactam powder for solution for intravenous and intramuscular administration 250",
+    "license_no": "2025/008975",
+    "page": 12
+  },
+  {
+    "id": 35,
+    "sno": 50,
+    "product_name": "mg - Sulbactam DJ",
+    "license_no": "2025/008974",
+    "page": 12
+  },
+  {
+    "id": 36,
+    "sno": 51,
+    "product_name": "Paclitaxel injection USP 6mg/mL (150mg/25mL)",
+    "license_no": "2025/009248",
+    "page": 12
+  },
+  {
+    "id": 37,
+    "sno": 52,
+    "product_name": "Sulbactam powder for solution for intravenous and intramuscular administration 5o0 mg-Sulbactam DJ",
+    "license_no": "2025/009423",
+    "page": 12
+  },
+  {
+    "id": 38,
+    "sno": 53,
+    "product_name": "Methotrexate Injection USP 10Omg/mL (1 g/10 mL)-JODATREXATE",
+    "license_no": "2025/009903",
+    "page": 12
+  },
+  {
+    "id": 39,
+    "sno": 54,
+    "product_name": "Cefepime+Sulbactampowderforthepreparationofsolutionforintravenousand intramuscular administration 2.0g +0.5g /vial-Cefepime +Sulbactam",
+    "license_no": "2025/010268",
+    "page": 12
+  },
+  {
+    "id": 40,
+    "sno": 55,
+    "product_name": "Octreotide Acetate for Injectable Suspension 30 mg (LAR)+Diluent (forOctreotide Acetate for Injectable Suspension) 2mL - Octejo LAR 30 Paclitaxel Protein bound particles for injectable suspension 1o0 mg/Vial (Lyophilized) -",
+    "license_no": "2025/010564",
+    "page": 12
+  },
+  {
+    "id": 41,
+    "sno": 56,
+    "product_name": "PACJONAB Octreotide Acetate for Injectable Suspension 20 mg (LAR) + Diluent (for Octreotide Acetate for Injectable Suspension) 2mL-OCTEJO LAR",
+    "license_no": "2025/010563 2025/010561",
+    "page": 12
+  },
+  {
+    "id": 42,
+    "sno": 58,
+    "product_name": "Axitinib film coated tablets 7mg",
+    "license_no": "2025/010526",
+    "page": 12
+  },
+  {
+    "id": 43,
+    "sno": 59,
+    "product_name": "Axitinib film coated tablets 3mg Ataluren granules for preparation of suspension for oral administration 1000mg-",
+    "license_no": "2025/010495",
+    "page": 12
+  },
+  {
+    "id": 44,
+    "sno": 60,
+    "product_name": "Ataluren DJ Ataluren granules for preparation of suspension for oral administration 125mg-Ataluren",
+    "license_no": "2025/011061",
+    "page": 12
+  },
+  {
+    "id": 45,
+    "sno": 61,
+    "product_name": "DJ",
+    "license_no": "2025/011116",
+    "page": 12
+  },
+  {
+    "id": 46,
+    "sno": 62,
+    "product_name": "Fosfomycin powder for preparation of solution for intravenous administration 3 g /vial- FosfomycinDJ",
+    "license_no": "2025/011272",
+    "page": 12
+  },
+  {
+    "id": 47,
+    "sno": 63,
+    "product_name": "Atalurengranules for preparationof suspension for oral administration25Omg-Ataluren DJ",
+    "license_no": "2025/011556",
+    "page": 12
+  },
+  {
+    "id": 48,
+    "sno": 65,
+    "product_name": "Nusinersen solution for Injection 2.4 mg/mL (12 mg/5 mL) Nusinersen solution for Injection 2.4 mg/mL (12 mg/5 mL)",
+    "license_no": "2025/013097 2025/014269",
+    "page": 12
+  },
+  {
+    "id": 49,
+    "sno": 67,
+    "product_name": "mg/vial",
+    "license_no": "2025/015943",
+    "page": 13
+  },
+  {
+    "id": 50,
+    "sno": 68,
+    "product_name": "Levetiracetam 100mg/mL concentratefor solution for infusion (500mg/5mL) Carboplatin concentrate for the preparation of solution for infusion 10mg/mL(450",
+    "license_no": "2025/015571",
+    "page": 13
+  },
+  {
+    "id": 51,
+    "sno": 69,
+    "product_name": "mg/45 mL) Sugammadex 100mg/ml solution for injection (200 mg/2 ml) (Sugammadex sodium 100",
+    "license_no": "2025/017401",
+    "page": 13
+  },
+  {
+    "id": 52,
+    "sno": 70,
+    "product_name": "mg/ml Sugammadex 100mg/ml solution for injection (200 mg/2 ml) (Sugammadex sodium 100",
+    "license_no": "2025/017611",
+    "page": 13
+  },
+  {
+    "id": 53,
+    "sno": 71,
+    "product_name": "mg/ml I In House Specification",
+    "license_no": "2025/017608",
+    "page": 13
+  },
+  {
+    "id": 54,
+    "sno": 72,
+    "product_name": "Tobramycin inhalation solution 300mg/4ml (75mg/mL) (Tobramycin sulphate 75 mg/ml",
+    "license_no": "2025/018104",
+    "page": 13
+  },
+  {
+    "id": 55,
+    "sno": 73,
+    "product_name": "Nusinersen sodium Sugammadex 100mg/ml solution for injection (200mg/2 mL) (Sugammadex sodium 100",
+    "license_no": "2026/000006",
+    "page": 13
+  },
+  {
+    "id": 56,
+    "sno": 74,
+    "product_name": "mg/ml I In House Specification) Sugammadex 100mg/ml solution for injection (500mg/5 mL) (Sugammadex sodium 100",
+    "license_no": "2025/020771",
+    "page": 13
+  },
+  {
+    "id": 57,
+    "sno": 75,
+    "product_name": "mg/ml /InHouseSpecification) Nusinersen solution for Injection 2.4 mg/mL (12 mg/5 mL) (Nusinersen sodium 2.4",
+    "license_no": "2025/020772",
+    "page": 13
+  },
+  {
+    "id": 58,
+    "sno": 76,
+    "product_name": "mg/ml  In House Specification)",
+    "license_no": "2025/020769",
+    "page": 13
+  },
+  {
+    "id": 59,
+    "sno": 77,
+    "product_name": "Carglumic acid Dispersible Tablets 200mg (Carglumic acid 200 milligram (mg) Risdiplam Powder for preparation of a solution for oral administration 0.75mg/mL",
+    "license_no": "2026/003731",
+    "page": 13
+  },
+  {
+    "id": 60,
+    "sno": 78,
+    "product_name": "(60mg/80mL) (Risdiplam 60 mg/80mL/ In House Specification)",
+    "license_no": "2026/003280",
+    "page": 13
+  },
+  {
+    "id": 61,
+    "sno": 79,
+    "product_name": "Ataluren granules for preparation of suspension for oral administration 125mg",
+    "license_no": "2026/005373",
+    "page": 13
+  },
+  {
+    "id": 62,
+    "sno": 80,
+    "product_name": "Ataluren granules for preparation of suspension for oral administration 250mg",
+    "license_no": "2026/005377",
+    "page": 13
+  },
+  {
+    "id": 63,
+    "sno": 81,
+    "product_name": "Ataluren granules for preparation of suspension for oral administration 100Omg",
+    "license_no": "2026/005378",
+    "page": 13
+  },
+  {
+    "id": 64,
+    "sno": 82,
+    "product_name": "Eltrombopag film coated tablets 25 mg (Eltrombopag choline 25 milligram (mg)",
+    "license_no": "2026/005382",
+    "page": 13
+  },
+  {
+    "id": 65,
+    "sno": 83,
+    "product_name": "Eltrombopag film coated tablets 50 mg (Eltrombopag choline 50 milligram (mg)",
+    "license_no": "2026/005383",
+    "page": 13
+  },
+  {
+    "id": 66,
+    "sno": 84,
+    "product_name": "Eltrombopag film coated tablets 75 mg (Eltrombopag choline 75 milligram (mg)",
+    "license_no": "2026/005398",
+    "page": 13
+  },
+  {
+    "id": 67,
+    "sno": 85,
+    "product_name": "Icatibant solution for subcutaneous administration 10 mg/mL (30mg/3ml) Cefepime + Sulbactam powder for the preparation of solution for intravenous and",
+    "license_no": "2026/005518",
+    "page": 13
+  },
+  {
+    "id": 68,
+    "sno": 86,
+    "product_name": "intramuscularadministration0.25g+0.25g Cefepime + Sulbactam powder for the preparation of solution for intravenous and",
+    "license_no": "2026/005666",
+    "page": 13
+  },
+  {
+    "id": 69,
+    "sno": 87,
+    "product_name": "intramuscularadministration0.50g+0.50g Cefepime + Sulbactam powder for the preparation of solution for intravenous and",
+    "license_no": "2026/005665",
+    "page": 13
+  },
+  {
+    "id": 70,
+    "sno": 88,
+    "product_name": "intramuscular administration 1.0 g + 1.0 g Cefepime + Sulbactam powder for the preparation of solution for intravenous and",
+    "license_no": "2026/005664",
+    "page": 13
+  },
+  {
+    "id": 71,
+    "sno": 89,
+    "product_name": "intramuscular administration 2.0 g + 2.0 g",
+    "license_no": "2026/005663",
+    "page": 13
+  },
+  {
+    "id": 72,
+    "sno": 90,
+    "product_name": "Eltrombopag film coated tablets 12.5 mg (Eltrombopag choline 25 milligram (mg)",
+    "license_no": "2026/005782",
+    "page": 13
+  },
+  {
+    "id": 73,
+    "sno": 91,
+    "product_name": "Tranexamic acid Solution for intravenous administration 50 mg/ml (250mg/5mL)",
+    "license_no": "2026/005776",
+    "page": 13
+  },
+  {
+    "id": 74,
+    "sno": 92,
+    "product_name": "Lenalidomide Capsules 2.5 mg (old Pincode)",
+    "license_no": "2026/007131",
+    "page": 13
+  },
+  {
+    "id": 75,
+    "sno": 93,
+    "product_name": "Lenalidomide Capsules 20 mg (Old Pincode)",
+    "license_no": "2026/007159",
+    "page": 13
+  },
+  {
+    "id": 76,
+    "sno": 94,
+    "product_name": "Lenalidomide Capsule 7.5 mg (Old Pincode)",
+    "license_no": "2026/007313",
+    "page": 13
+  },
+  {
+    "id": 77,
+    "sno": 95,
+    "product_name": "Lenalidomide Capsules 2.5 mg (New Pincode)",
+    "license_no": "2026/007856",
+    "page": 13
+  },
+  {
+    "id": 78,
+    "sno": 96,
+    "product_name": "Lenalidomide Capsules 20 mg (New Pincode)",
+    "license_no": "2026/007819",
+    "page": 13
+  },
+  {
+    "id": 79,
+    "sno": 97,
+    "product_name": "Lenalidomide Capsule 7.5 mg (New Pincode) Eltrombopag film coated tablets 75 mg (New Pincode)",
+    "license_no": "2026/007818 2026/007908",
+    "page": 13
+  },
+  {
+    "id": 80,
+    "sno": 100,
+    "product_name": "Eltrombopag film coated tablets 25 mg (New Pincode)",
+    "license_no": "2026/007957",
+    "page": 13
+  },
+  {
+    "id": 81,
+    "sno": 101,
+    "product_name": "Eltrombopag film coated tablets 12.5 mg (New Pincode) Ataluren granules for preparation of suspension for oral administration 125 mg (New",
+    "license_no": "2026/007963",
+    "page": 14
+  },
+  {
+    "id": 82,
+    "sno": 102,
+    "product_name": "Pincode) Ataluren granules for preparation of suspension for oral administration 250 mg (New",
+    "license_no": "2026/009121",
+    "page": 14
+  },
+  {
+    "id": 83,
+    "sno": 103,
+    "product_name": "Pincode Ataluren granules for preparation of suspension for oral administration 1oo0 mg (New",
+    "license_no": "2026/009120",
+    "page": 14
+  },
+  {
+    "id": 84,
+    "sno": 104,
+    "product_name": "Pincode)",
+    "license_no": "2026/009064",
+    "page": 14
+  },
+  {
+    "id": 85,
+    "sno": 105,
+    "product_name": "Acyclovir lyophilized for preparation of solution for infusion 500mg",
+    "license_no": "2026/009251",
+    "page": 14
+  },
+  {
+    "id": 86,
+    "sno": 106,
+    "product_name": "Acyclovir lyophilized for preparation of solution for infusion 1000mg (URAPIDIL Urapidil solution for intravenous administration 5mg/mL (25mg/5mL)",
+    "license_no": "2026/009252",
+    "page": 14
+  },
+  {
+    "id": 87,
+    "sno": 107,
+    "product_name": "Stragen i.v. 25mg Injektionsloesung) Urapidil solution for intravenous administration 5mg/mL (5Omg/1OmL) (URAPIDIL",
+    "license_no": "2026/012953",
+    "page": 14
+  },
+  {
+    "id": 88,
+    "sno": 108,
+    "product_name": "Stragen 50mg i.v. Injektionsloesung) (Urapidil Urapidil solution for intravenous administration 5mg/mL (50mg/10mL)",
+    "license_no": "2026/012952",
+    "page": 14
+  },
+  {
+    "id": 89,
+    "sno": 109,
+    "product_name": "Stragen 50 mg / 10 ml INJ) Urapidil solution for intravenous administration 5mg/mL (100mg/20mL) (Tachyben, 50",
+    "license_no": "2026/012951",
+    "page": 14
+  },
+  {
+    "id": 90,
+    "sno": 110,
+    "product_name": "mg, Solutie injectabilae) Urapidil solution for intravenous administration 5mg/mL (100mg/20mL) (Tachyben, 50",
+    "license_no": "2026/012954",
+    "page": 14
+  },
+  {
+    "id": 91,
+    "sno": 111,
+    "product_name": "mg, Solutie injectabilae)",
+    "license_no": "2026/012956",
+    "page": 14
+  },
+  {
+    "id": 92,
+    "sno": 112,
+    "product_name": "Octreotide Injection 50mcg/mL (OCTEJO)",
+    "license_no": "2026/015222",
+    "page": 14
+  },
+  {
+    "id": 93,
+    "sno": 113,
+    "product_name": "Erlotinib tablets 50 mg",
+    "license_no": "2026/015895",
+    "page": 14
+  },
+  {
+    "id": 94,
+    "sno": 114,
+    "product_name": "lomeprol solution for intravascular administration 350 mg lodine/mL",
+    "license_no": "2026/015896",
+    "page": 14
+  },
+  {
+    "id": 95,
+    "sno": 115,
+    "product_name": "Sunitinib capsules 37.5 mg",
+    "license_no": "2026/015897",
+    "page": 14
+  },
+  {
+    "id": 96,
+    "sno": 116,
+    "product_name": "Axitinib film coated tablets 3mg",
+    "license_no": "2026/016490",
+    "page": 14
+  },
+  {
+    "id": 97,
+    "sno": 117,
+    "product_name": "Axitinib film coated tablets 7mg",
+    "license_no": "2026/016510",
+    "page": 14
+  },
+  {
+    "id": 98,
+    "sno": 118,
+    "product_name": "Nusinersen solution for Injection 2.4 mg/mL (12 mg/5 mL) Semaglutide solution for subcutaneous administration 0.25mg/0.5mg per dose (1.5mL",
+    "license_no": "2026/016509",
+    "page": 14
+  },
+  {
+    "id": 99,
+    "sno": 119,
+    "product_name": "fill Syringe Pen) Semaglutide solution for subcutaneous administration 1mg per dose (3mL fill Syringe",
+    "license_no": "2026/016495",
+    "page": 14
+  },
+  {
+    "id": 100,
+    "sno": 120,
+    "product_name": "Pen)",
+    "license_no": "2026/016494",
+    "page": 14
+  },
+  {
+    "id": 101,
+    "sno": 121,
+    "product_name": "Fosfomycin powder for preparation of solution for intravenous administration O.5 g/vial",
+    "license_no": "2026/016855",
+    "page": 14
+  },
+  {
+    "id": 102,
+    "sno": 122,
+    "product_name": "Fosfomycin powder for preparation of solution for intravenous administration 1 g/vial",
+    "license_no": "2026/016854",
+    "page": 14
+  },
+  {
+    "id": 103,
+    "sno": 123,
+    "product_name": "Fosfomycin powder for preparation of solution for intravenous administration 2 g/vial",
+    "license_no": "2026/016840",
+    "page": 14
+  }
+];

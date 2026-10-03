@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>JODAS Russia Approved Products Registry</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <script src="products_data.js"></script>
+  <style>
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #ffffff; }
+    ::-webkit-scrollbar-thumb { background: #000000; border-radius: 3px; }
+    body { background-color: #ffffff; color: #000000; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .card-style { background-color: #fafafa; border: 1px solid #e5e7eb; }
+    .badge-mono { background-color: #ffffff; color: #000000; border: 1px solid #d1d5db; }
+    .tab-active { background-color: #000000; color: #ffffff; border-color: #000000; }
+    .tab-inactive { background-color: #ffffff; color: #000000; border-color: #d1d5db; }
+    .tab-inactive:hover { background-color: #f3f4f6; }
+  </style>
+</head>
+<body class="bg-white text-black antialiased min-h-screen p-3 sm:p-6 md:p-8">
+
+  <!-- MAIN CONTAINER -->
+  <main class="max-w-7xl mx-auto space-y-6">
+
+    <!-- HEADER CARD -->
+    <div class="card-style bg-white rounded-xl p-4 sm:p-6 space-y-4 shadow-sm">
+      <div class="flex items-center space-x-3">
+        <div class="p-3 bg-black text-white rounded-lg flex-shrink-0">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+          </svg>
+        </div>
+        <div>
+          <h1 class="text-xl sm:text-2xl font-bold text-black tracking-tight">JODAS Russia Approved Products Registry</h1>
+          <p class="text-xs sm:text-sm text-gray-700">Official approved pharmaceutical registration catalog divided by category</p>
+        </div>
+      </div>
+
+      <!-- CATEGORY TABS SWITCHER -->
+      <div class="flex flex-col sm:flex-row gap-3 pt-2">
+        <button id="tab-cat1" onclick="switchCategory('cat1')" class="tab-active flex-1 py-3 px-4 rounded-xl border text-sm font-bold flex items-center justify-between transition shadow-xs">
+          <div class="flex items-center space-x-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span>1. Licensed Products for Russia (Pages 1-10)</span>
+          </div>
+          <span class="px-2 py-0.5 text-xs rounded bg-white text-black font-black border" id="cat1-count-badge">255 Products</span>
+        </button>
+
+        <button id="tab-cat2" onclick="switchCategory('cat2')" class="tab-inactive flex-1 py-3 px-4 rounded-xl border text-sm font-bold flex items-center justify-between transition shadow-xs">
+          <div class="flex items-center space-x-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+            <span>2. List of Export NOC Products for Russia (Pages 11-14)</span>
+          </div>
+          <span class="px-2 py-0.5 text-xs rounded bg-black text-white font-black" id="cat2-count-badge">103 Products</span>
+        </button>
+      </div>
+
+      <!-- Quick Metrics Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 pt-1">
+        <div class="p-3 sm:p-4 bg-white rounded-lg border border-gray-300">
+          <span class="text-[10px] sm:text-xs font-bold uppercase text-gray-700 tracking-wider">Category Total</span>
+          <div class="text-xl sm:text-2xl font-black text-black mt-1" id="stat-total">255</div>
+        </div>
+        <div class="p-3 sm:p-4 bg-white rounded-lg border border-gray-300">
+          <span class="text-[10px] sm:text-xs font-bold uppercase text-gray-700 tracking-wider">Filtered Results</span>
+          <div class="text-xl sm:text-2xl font-black text-black mt-1" id="stat-filtered">255</div>
+        </div>
+        <div class="p-3 sm:p-4 bg-white rounded-lg border border-gray-300" id="brand-stat-box">
+          <span class="text-[10px] sm:text-xs font-bold uppercase text-gray-700 tracking-wider">Unique Brands</span>
+          <div class="text-xl sm:text-2xl font-black text-black mt-1" id="stat-brands">0</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTROLS & FILTER BAR -->
+    <div class="card-style bg-white rounded-xl p-4 sm:p-5 space-y-4 shadow-sm">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-3 sm:gap-4">
+        
+        <!-- Search Box -->
+        <div id="search-box-col" class="md:col-span-8 relative">
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-gray-500">
+            <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </div>
+          <input type="text" id="search-input" oninput="onSearchChange()" placeholder="Search product name..." class="w-full pl-9 sm:pl-10 pr-9 sm:pr-10 py-2 sm:py-2.5 text-xs sm:text-sm bg-white border border-gray-400 text-black rounded-lg focus:ring-2 focus:ring-black focus:outline-none transition">
+          <button id="clear-search" onclick="clearSearch()" class="hidden absolute inset-y-0 right-0 pr-3 flex items-center text-gray-500 hover:text-black">
+            <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+
+        <!-- Filter by Brand (Only shown for Category 1) -->
+        <div id="brand-filter-col" class="md:col-span-4">
+          <select id="brand-filter" onchange="onFilterChange()" class="w-full py-2 sm:py-2.5 px-3 text-xs sm:text-sm bg-white border border-gray-400 text-black font-medium rounded-lg focus:ring-2 focus:ring-black focus:outline-none transition">
+            <option value="">All Brands</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Secondary Controls -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-3 border-t border-gray-300">
+        <div class="flex items-center space-x-2 text-xs sm:text-sm text-black">
+          <span class="font-bold">Show:</span>
+          <select id="page-size" onchange="onPageSizeChange()" class="py-1 px-2 bg-white border border-gray-400 rounded-lg font-bold text-black focus:ring-2 focus:ring-black focus:outline-none">
+            <option value="10">10 / page</option>
+            <option value="25" selected>25 / page</option>
+            <option value="50">50 / page</option>
+            <option value="100">100 / page</option>
+          </select>
+        </div>
+
+        <!-- View Switcher -->
+        <div class="flex items-center space-x-1 bg-white border border-gray-300 p-1 rounded-lg self-start sm:self-auto">
+          <button id="view-table-btn" onclick="setView('table')" class="flex items-center space-x-1.5 px-3 py-1.5 rounded text-xs font-bold bg-black text-white transition">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
+            <span>Table</span>
+          </button>
+          <button id="view-grid-btn" onclick="setView('grid')" class="flex items-center space-x-1.5 px-3 py-1.5 rounded text-xs font-bold bg-white text-black hover:bg-gray-100 transition">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/></svg>
+            <span>Cards</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN DATA VIEW CONTAINER -->
+    <div id="data-container" class="bg-white border border-gray-300 rounded-xl shadow-sm overflow-hidden min-h-[350px]">
+      
+      <!-- TABLE VIEW -->
+      <div id="table-view" class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead id="table-head">
+            <!-- Table headers dynamically rendered based on category -->
+          </thead>
+          <tbody id="table-body" class="divide-y divide-gray-200 text-xs sm:text-sm">
+            <!-- Rows injected by JavaScript -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- GRID CARDS VIEW -->
+      <div id="grid-view" class="hidden p-4 sm:p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+        <!-- Cards injected by JavaScript -->
+      </div>
+
+      <!-- EMPTY STATE -->
+      <div id="empty-state" class="hidden py-12 sm:py-16 px-4 text-center space-y-3">
+        <div class="inline-flex p-3 sm:p-4 bg-gray-100 rounded-full text-black">
+          <svg class="w-8 h-8 sm:w-10 sm:h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 9.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <h3 class="text-base sm:text-lg font-bold text-black">No matching products found</h3>
+        <p class="text-xs sm:text-sm text-gray-700 max-w-md mx-auto">Try adjusting your search terms or clearing selected filter.</p>
+        <button onclick="resetFilters()" class="inline-flex items-center px-4 py-2 text-xs sm:text-sm font-bold text-white bg-black rounded-lg hover:bg-gray-800 transition">Reset All Filters</button>
+      </div>
+
+    </div>
+
+    <!-- PAGINATION CONTROLS -->
+    <div class="card-style bg-white rounded-xl p-3 sm:p-4 shadow-sm flex flex-col md:flex-row items-center justify-between gap-3">
+      <div class="text-xs sm:text-sm font-semibold text-black" id="pagination-info">
+        Showing 1 to 25 of 255 entries
+      </div>
+      
+      <div class="flex items-center flex-wrap justify-center gap-1.5" id="pagination-buttons">
+        <!-- Pagination Buttons injected dynamically -->
+      </div>
+    </div>
+
+  </main>
+
+  <!-- PRODUCT DETAIL MODAL -->
+  <div id="detail-modal" class="fixed inset-0 bg-black/50 backdrop-blur-xs z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white border border-black rounded-xl max-w-lg w-full p-5 sm:p-6 shadow-2xl space-y-4 sm:space-y-5">
+      <div class="flex items-start justify-between border-b border-gray-300 pb-3 sm:pb-4">
+        <div>
+          <span class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-black" id="modal-sno">PRODUCT REGISTRATION #1</span>
+          <h3 class="text-lg sm:text-xl font-bold text-black mt-0.5" id="modal-title">Product Details</h3>
+        </div>
+        <button onclick="closeModal()" class="text-black hover:bg-gray-200 p-1.5 rounded-lg transition">
+          <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div class="space-y-3 sm:space-y-4 text-xs sm:text-sm">
+        <div>
+          <label class="text-[10px] sm:text-xs font-bold text-gray-700 uppercase">Composition / Product Description</label>
+          <div class="p-2.5 sm:p-3 mt-1 bg-gray-50 rounded-lg border border-gray-300 font-bold text-black" id="modal-name"></div>
+        </div>
+
+        <div id="modal-brand-container">
+          <label class="text-[10px] sm:text-xs font-bold text-gray-700 uppercase">Brand Name</label>
+          <div class="p-2.5 sm:p-3 mt-1 bg-gray-50 rounded-lg border border-gray-300 font-bold text-black" id="modal-brand"></div>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-end space-x-2 sm:space-x-3 pt-3 border-t border-gray-300">
+        <button onclick="copyModalData()" class="px-3 sm:px-4 py-2 text-xs sm:text-sm font-bold rounded-lg bg-gray-100 hover:bg-gray-200 border border-gray-300 text-black transition">
+          Copy Info
+        </button>
+        <button onclick="closeModal()" class="px-4 sm:px-5 py-2 text-xs sm:text-sm font-bold rounded-lg bg-black hover:bg-gray-800 text-white transition">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT APP LOGIC -->
+  <script>
+    let activeCategory = 'cat1';
+    let cat1Data = window.cat1Data || [];
+    let cat2Data = window.cat2Data || [];
+    let currentRawData = [];
+    let filteredData = [];
+    let currentPage = 1;
+    let pageSize = 25;
+    let currentView = 'table';
+    let activeModalItem = null;
+
+    async function initApp() {
+      if (!cat1Data || cat1Data.length === 0) {
+        try {
+          const r1 = await fetch('cat1_licensed_products.json');
+          cat1Data = await r1.json();
+          window.cat1Data = cat1Data;
+
+          const r2 = await fetch('cat2_export_noc_products.json');
+          cat2Data = await r2.json();
+          window.cat2Data = cat2Data;
+        } catch (e) {
+          console.error('Fetch error:', e);
+        }
+      }
+
+      document.getElementById('cat1-count-badge').textContent = `${cat1Data.length} Products`;
+      document.getElementById('cat2-count-badge').textContent = `${cat2Data.length} Products`;
+
+      switchCategory('cat1');
+    }
+
+    function switchCategory(cat) {
+      activeCategory = cat;
+      const tab1 = document.getElementById('tab-cat1');
+      const tab2 = document.getElementById('tab-cat2');
+      const brandFilterCol = document.getElementById('brand-filter-col');
+      const searchBoxCol = document.getElementById('search-box-col');
+      const brandStatBox = document.getElementById('brand-stat-box');
+
+      if (cat === 'cat1') {
+        tab1.className = 'tab-active flex-1 py-3 px-4 rounded-xl border text-sm font-bold flex items-center justify-between transition shadow-xs';
+        tab2.className = 'tab-inactive flex-1 py-3 px-4 rounded-xl border text-sm font-bold flex items-center justify-between transition shadow-xs';
+        
+        brandFilterCol.classList.remove('hidden');
+        searchBoxCol.className = 'md:col-span-8 relative';
+        brandStatBox.classList.remove('hidden');
+
+        currentRawData = cat1Data;
+      } else {
+        tab2.className = 'tab-active flex-1 py-3 px-4 rounded-xl border text-sm font-bold flex items-center justify-between transition shadow-xs';
+        tab1.className = 'tab-inactive flex-1 py-3 px-4 rounded-xl border text-sm font-bold flex items-center justify-between transition shadow-xs';
+
+        brandFilterCol.classList.add('hidden');
+        searchBoxCol.className = 'md:col-span-12 relative';
+        brandStatBox.classList.add('hidden');
+
+        currentRawData = cat2Data;
+      }
+
+      document.getElementById('stat-total').textContent = currentRawData.length;
+      document.getElementById('search-input').value = '';
+      
+      renderTableHeader();
+      populateFilterDropdowns();
+      applyFiltersAndSort();
+    }
+
+    function renderTableHeader() {
+      const thead = document.getElementById('table-head');
+      if (activeCategory === 'cat1') {
+        thead.innerHTML = `
+          <tr class="bg-gray-100 border-b border-gray-300 text-[11px] sm:text-xs uppercase font-extrabold text-black tracking-wider">
+            <th class="py-3.5 px-3 sm:px-4 w-12 sm:w-16 text-center">#</th>
+            <th class="py-3.5 px-3 sm:px-4 min-w-[320px]">Product Name & Strength</th>
+            <th class="py-3.5 px-4 min-w-[180px]">Brand Name</th>
+          </tr>
+        `;
+      } else {
+        thead.innerHTML = `
+          <tr class="bg-gray-100 border-b border-gray-300 text-[11px] sm:text-xs uppercase font-extrabold text-black tracking-wider">
+            <th class="py-3.5 px-3 sm:px-4 w-12 sm:w-16 text-center">#</th>
+            <th class="py-3.5 px-3 sm:px-4 min-w-[400px]">Product Name & Strength (Export NOC)</th>
+          </tr>
+        `;
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initApp);
+    } else {
+      initApp();
+    }
+
+    function populateFilterDropdowns() {
+      const brandFilter = document.getElementById('brand-filter');
+      brandFilter.innerHTML = '<option value="">All Brands</option>';
+
+      if (activeCategory === 'cat1') {
+        const brands = Array.from(new Set(currentRawData.map(item => item.brand_name).filter(b => b && b !== '-'))).sort();
+        document.getElementById('stat-brands').textContent = brands.length;
+
+        brands.forEach(b => {
+          const opt = document.createElement('option');
+          opt.value = b;
+          opt.textContent = b;
+          brandFilter.appendChild(opt);
+        });
+      }
+    }
+
+    function applyFiltersAndSort() {
+      const query = document.getElementById('search-input').value.trim().toLowerCase();
+      const brandVal = document.getElementById('brand-filter').value;
+
+      document.getElementById('clear-search').classList.toggle('hidden', query.length === 0);
+
+      filteredData = currentRawData.filter(item => {
+        const matchesQuery = !query || 
+          item.product_name.toLowerCase().includes(query) ||
+          (item.brand_name && item.brand_name.toLowerCase().includes(query)) ||
+          item.id.toString().includes(query);
+
+        const matchesBrand = activeCategory === 'cat2' || !brandVal || item.brand_name === brandVal;
+
+        return matchesQuery && matchesBrand;
+      });
+
+      filteredData.sort((a, b) => a.id - b.id);
+
+      currentPage = 1;
+      document.getElementById('stat-filtered').textContent = filteredData.length;
+      renderCurrentPage();
+    }
+
+    function renderCurrentPage() {
+      const total = filteredData.length;
+      const totalPages = Math.ceil(total / pageSize) || 1;
+      if (currentPage > totalPages) currentPage = totalPages;
+
+      const startIdx = (currentPage - 1) * pageSize;
+      const endIdx = Math.min(startIdx + pageSize, total);
+      const pageItems = filteredData.slice(startIdx, endIdx);
+
+      const emptyState = document.getElementById('empty-state');
+      const tableView = document.getElementById('table-view');
+      const gridView = document.getElementById('grid-view');
+
+      if (total === 0) {
+        emptyState.classList.remove('hidden');
+        tableView.classList.add('hidden');
+        gridView.classList.add('hidden');
+      } else {
+        emptyState.classList.add('hidden');
+        if (currentView === 'table') {
+          tableView.classList.remove('hidden');
+          gridView.classList.add('hidden');
+          renderTable(pageItems);
+        } else {
+          gridView.classList.remove('hidden');
+          tableView.classList.add('hidden');
+          renderGrid(pageItems);
+        }
+      }
+
+      renderPaginationControls(startIdx, endIdx, total, totalPages);
+    }
+
+    function renderTable(items) {
+      const tbody = document.getElementById('table-body');
+      if (activeCategory === 'cat1') {
+        tbody.innerHTML = items.map(item => `
+          <tr class="hover:bg-gray-200 transition cursor-pointer text-black" onclick="openModal(${item.id})">
+            <td class="py-3.5 px-3 sm:px-4 text-center font-bold text-gray-500">${item.id}</td>
+            <td class="py-3.5 px-3 sm:px-4 font-bold text-black max-w-md break-words">
+              ${item.product_name}
+            </td>
+            <td class="py-3.5 px-4">
+              <span class="inline-block px-2.5 py-1 rounded-md text-[11px] sm:text-xs font-bold badge-mono">
+                ${item.brand_name !== '-' ? item.brand_name : 'Generic'}
+              </span>
+            </td>
+          </tr>
+        `).join('');
+      } else {
+        tbody.innerHTML = items.map(item => `
+          <tr class="hover:bg-gray-200 transition cursor-pointer text-black" onclick="openModal(${item.id})">
+            <td class="py-3.5 px-3 sm:px-4 text-center font-bold text-gray-500">${item.id}</td>
+            <td class="py-3.5 px-3 sm:px-4 font-bold text-black max-w-md break-words">
+              ${item.product_name}
+            </td>
+          </tr>
+        `).join('');
+      }
+    }
+
+    function renderGrid(items) {
+      const gridView = document.getElementById('grid-view');
+      if (activeCategory === 'cat1') {
+        gridView.innerHTML = items.map(item => `
+          <div class="card-style bg-white rounded-xl p-4 sm:p-5 hover:border-black transition space-y-3 flex flex-col justify-between cursor-pointer shadow-xs" onclick="openModal(${item.id})">
+            <div class="space-y-2">
+              <div class="flex items-center justify-between text-xs">
+                <span class="font-black text-gray-500">#${item.id}</span>
+              </div>
+              <h4 class="font-bold text-xs sm:text-sm text-black line-clamp-3">${item.product_name}</h4>
+            </div>
+
+            <div class="pt-2 border-t border-gray-300 space-y-2">
+              <div class="flex items-center justify-between text-xs">
+                <span class="text-gray-700 font-medium">Brand:</span>
+                <span class="font-bold badge-mono px-2 py-0.5 rounded text-[11px]">${item.brand_name !== '-' ? item.brand_name : 'Generic'}</span>
+              </div>
+            </div>
+          </div>
+        `).join('');
+      } else {
+        gridView.innerHTML = items.map(item => `
+          <div class="card-style bg-white rounded-xl p-4 sm:p-5 hover:border-black transition space-y-3 flex flex-col justify-between cursor-pointer shadow-xs" onclick="openModal(${item.id})">
+            <div class="space-y-2">
+              <div class="flex items-center justify-between text-xs">
+                <span class="font-black text-gray-500">#${item.id}</span>
+                <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-black text-white">Export NOC</span>
+              </div>
+              <h4 class="font-bold text-xs sm:text-sm text-black line-clamp-3">${item.product_name}</h4>
+            </div>
+          </div>
+        `).join('');
+      }
+    }
+
+    function renderPaginationControls(startIdx, endIdx, total, totalPages) {
+      const info = document.getElementById('pagination-info');
+      if (total === 0) {
+        info.textContent = "Showing 0 entries";
+      } else {
+        info.textContent = `Showing ${startIdx + 1} to ${endIdx} of ${total} entries (Page ${currentPage} of ${totalPages})`;
+      }
+
+      const container = document.getElementById('pagination-buttons');
+      let btnsHTML = '';
+
+      btnsHTML += `
+        <button onclick="goToPage(1)" ${currentPage === 1 ? 'disabled' : ''} class="px-2 sm:px-2.5 py-1 text-xs font-bold rounded border border-gray-400 text-black disabled:opacity-30 disabled:cursor-not-allowed hover:bg-gray-200 transition">« First</button>
+        <button onclick="goToPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''} class="px-2 sm:px-2.5 py-1 text-xs font-bold rounded border border-gray-400 text-black disabled:opacity-30 disabled:cursor-not-allowed hover:bg-gray-200 transition">‹ Prev</button>
+      `;
+
+      const delta = 2;
+      const startPage = Math.max(1, currentPage - delta);
+      const endPage = Math.min(totalPages, currentPage + delta);
+
+      for (let p = startPage; p <= endPage; p++) {
+        const isActive = p === currentPage;
+        btnsHTML += `
+          <button onclick="goToPage(${p})" class="px-2.5 sm:px-3 py-1 text-xs font-bold rounded transition ${isActive ? 'bg-black text-white' : 'border border-gray-400 text-black hover:bg-gray-200'}">${p}</button>
+        `;
+      }
+
+      btnsHTML += `
+        <button onclick="goToPage(${currentPage + 1})" ${currentPage === totalPages || totalPages === 0 ? 'disabled' : ''} class="px-2 sm:px-2.5 py-1 text-xs font-bold rounded border border-gray-400 text-black disabled:opacity-30 disabled:cursor-not-allowed hover:bg-gray-200 transition">Next ›</button>
+        <button onclick="goToPage(${totalPages})" ${currentPage === totalPages || totalPages === 0 ? 'disabled' : ''} class="px-2 sm:px-2.5 py-1 text-xs font-bold rounded border border-gray-400 text-black disabled:opacity-30 disabled:cursor-not-allowed hover:bg-gray-200 transition">Last »</button>
+      `;
+
+      container.innerHTML = btnsHTML;
+    }
+
+    function onSearchChange() { applyFiltersAndSort(); }
+    function clearSearch() { document.getElementById('search-input').value = ''; applyFiltersAndSort(); }
+    function onFilterChange() { applyFiltersAndSort(); }
+    function onPageSizeChange() {
+      pageSize = parseInt(document.getElementById('page-size').value, 10);
+      currentPage = 1;
+      renderCurrentPage();
+    }
+
+    function goToPage(page) {
+      const totalPages = Math.ceil(filteredData.length / pageSize) || 1;
+      if (page >= 1 && page <= totalPages) {
+        currentPage = page;
+        renderCurrentPage();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+
+    function setView(view) {
+      currentView = view;
+      const tBtn = document.getElementById('view-table-btn');
+      const gBtn = document.getElementById('view-grid-btn');
+      if (view === 'table') {
+        tBtn.className = 'flex items-center space-x-1.5 px-3 py-1.5 rounded text-xs font-bold bg-black text-white transition';
+        gBtn.className = 'flex items-center space-x-1.5 px-3 py-1.5 rounded text-xs font-bold bg-white text-black hover:bg-gray-100 transition';
+      } else {
+        gBtn.className = 'flex items-center space-x-1.5 px-3 py-1.5 rounded text-xs font-bold bg-black text-white transition';
+        tBtn.className = 'flex items-center space-x-1.5 px-3 py-1.5 rounded text-xs font-bold bg-white text-black hover:bg-gray-100 transition';
+      }
+      renderCurrentPage();
+    }
+
+    function resetFilters() {
+      document.getElementById('search-input').value = '';
+      document.getElementById('brand-filter').value = '';
+      applyFiltersAndSort();
+    }
+
+    function openModal(id) {
+      const item = currentRawData.find(x => x.id === id);
+      if (!item) return;
+      activeModalItem = item;
+
+      const catTitle = activeCategory === 'cat1' ? 'LICENSED PRODUCT' : 'EXPORT NOC PRODUCT';
+      document.getElementById('modal-sno').textContent = `${catTitle} #${item.id}`;
+      document.getElementById('modal-name').textContent = item.product_name;
+
+      const brandContainer = document.getElementById('modal-brand-container');
+      if (activeCategory === 'cat1') {
+        brandContainer.classList.remove('hidden');
+        document.getElementById('modal-brand').textContent = item.brand_name;
+      } else {
+        brandContainer.classList.add('hidden');
+      }
+
+      document.getElementById('detail-modal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('detail-modal').classList.add('hidden');
+    }
+
+    function copyModalData() {
+      if (!activeModalItem) return;
+      const text = activeCategory === 'cat1' 
+        ? `Product: ${activeModalItem.product_name}
+Brand: ${activeModalItem.brand_name}`
+        : `Product: ${activeModalItem.product_name} (Export NOC)`;
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Product details copied to clipboard!');
+      }).catch(err => {
+        console.error('Copy failed:', err);
+      });
+    }
+  </script>
+</body>
+</html>
